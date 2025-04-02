@@ -1,0 +1,12 @@
+streamlit 
+langchain 
+openai 
+chromadb 
+tiktoken 
+python-dotenv
+faiss-cpu
+langchain-community
+pdfminer
+pdf2image
+langchain-huggingface
+langchain-text-splitters
