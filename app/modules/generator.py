@@ -14,7 +14,7 @@ def generate_response(query, documents):
     Returns:
         str: Generated response.
     """
-    api_key = os.getenv("OPEN_API_KEY")
+    api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
         return "Error: OpenAI API key not found. Please check your .env file."
     
