@@ -1,5 +1,7 @@
 QUERY:
-what is Anaemia?
+what are the causes of poor nutrition in women?
+Cite the relevant sources as possible. Make sure that information you provide is accurate.
+
 
 RESPONSE:
-Anaemia is a pathological condition characterized by low levels of haemoglobin or poor oxygen carrying capacity of the red blood cells. Anaemia is an indicator of poor nutrition, health, and wellbeing (Source: Document 5, Page 5). Iron deficiency anaemia specifically results when iron intake is insufficient to meet the demands for the synthesis of haemoglobin and erythrocytes, and it is the most common cause of anaemia among non-pregnant and pregnant women (Source: Document 3, Page 4).
+The causes of poor nutrition in women include poor-quality diets, poor services, poor practices, and a weak enabling environment. Women's access to diets and care are constrained by factors such as limited availability of and access to nutritious, safe, and affordable foods; limited opportunities for women to access nutrition services; limited knowledge of the importance of preconception nutrition care; and harmful gendered social norms and social and cultural practices (Source: Document 9, Page 12).

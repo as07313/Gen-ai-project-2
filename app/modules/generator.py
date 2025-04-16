@@ -26,7 +26,7 @@ def generate_response(query, documents):
         
         # Format the context from retrieved documents, including source information
         context = "\n\n".join([
-            f"Document {i+1} (Source: {doc.metadata.get('source', 'unknown')}, Page: {doc.metadata.get('page', 'unknown')}): {doc.page_content}"
+            f"Document {i+1} (Source: {doc.metadata.get('source', 'unknown')}, Page: {doc.metadata.get('page_number', 'unknown')}): {doc.page_content}"
             for i, doc in enumerate(documents)
         ])
         

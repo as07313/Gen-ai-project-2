@@ -2,161 +2,432 @@
   {
     "rank": 1,
     "metadata": {
-      "producer": "Adobe PDF Library 16.0.5",
-      "creator": "Adobe InDesign 17.1 (Macintosh)",
-      "creationdate": "2022-02-04T11:50:47-05:00",
-      "moddate": "2022-02-04T11:51:05-05:00",
-      "trapped": "/False",
       "source": "data\\Maternal Nutrition Programming Guidance.pdf",
-      "total_pages": 64,
-      "page": 4,
-      "page_label": "5"
+      "coordinates": {
+        "points": [
+          [
+            859.0,
+            631.0
+          ],
+          [
+            859.0,
+            840.0
+          ],
+          [
+            1357.0,
+            840.0
+          ],
+          [
+            1357.0,
+            631.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1700,
+        "layout_height": 2200
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-03T09:49:06",
+      "page_number": 16,
+      "file_directory": "data",
+      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "category": "Title",
+      "element_id": "4daf43228fba1e1544c3e0ce501a9832",
+      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_233",
+      "chunk_index": 233
     },
-    "content": "Iron deficiency is the most common cause of anaemia among non-\npregnant and pregnant women. \nLarge for gestational age: An infant born above the 90th percentile of a birthweight for a given \ngestational age.\nLow birthweight Weight of an infant of less than 2.5 kg at birth, regardless of gestational \nage. \nMacrosomia An infant with a birth weight greater than 4,000 to 4,500 g, regardless of \ngestational age.\nShort maternal stature A woman\u2019s height ranging from <145 cm to <155 cm.",
-    "content_length": 483
+    "content": "___all forms of ~ malnutrition \u2014 in women",
+    "content_length": 41
   },
   {
     "rank": 2,
     "metadata": {
-      "producer": "Adobe PDF Library 16.0.5",
-      "creator": "Adobe InDesign 17.1 (Macintosh)",
-      "creationdate": "2022-02-04T11:50:47-05:00",
-      "moddate": "2022-02-04T11:51:05-05:00",
-      "trapped": "/False",
       "source": "data\\Maternal Nutrition Programming Guidance.pdf",
-      "total_pages": 64,
-      "page": 0,
-      "page_label": "1"
+      "coordinates": {
+        "points": [
+          [
+            161.0,
+            162.0
+          ],
+          [
+            161.0,
+            323.0
+          ],
+          [
+            508.0,
+            323.0
+          ],
+          [
+            508.0,
+            162.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1700,
+        "layout_height": 2200
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-03T09:49:06",
+      "page_number": 1,
+      "file_directory": "data",
+      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "category": "Title",
+      "element_id": "ea69e77da395804402bbca3b2a23ae1f",
+      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_0",
+      "chunk_index": 0
     },
-    "content": "NUTRITION GUIDANCE SERIES\nUNICEF\nPROGRAMMING\nGUIDANCE\nMaternal Nutrition\nPrevention of malnutrition in women \nbefore and during pregnancy and \nwhile\u00a0breastfeeding",
-    "content_length": 162
+    "content": "UNICEF PROGRAMMING GUIDANCE",
+    "content_length": 27
   },
   {
     "rank": 3,
     "metadata": {
-      "producer": "Adobe PDF Library 16.0.5",
-      "creator": "Adobe InDesign 17.1 (Macintosh)",
-      "creationdate": "2022-02-04T11:50:47-05:00",
-      "moddate": "2022-02-04T11:51:05-05:00",
-      "trapped": "/False",
       "source": "data\\Maternal Nutrition Programming Guidance.pdf",
-      "total_pages": 64,
-      "page": 4,
-      "page_label": "5"
+      "coordinates": {
+        "points": [
+          [
+            221.0,
+            203.0
+          ],
+          [
+            221.0,
+            254.0
+          ],
+          [
+            793.0,
+            254.0
+          ],
+          [
+            793.0,
+            203.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1700,
+        "layout_height": 2200
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-03T09:49:06",
+      "page_number": 9,
+      "file_directory": "data",
+      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "category": "Title",
+      "element_id": "184d235655acdb597122ab12fdd5c42f",
+      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_98",
+      "chunk_index": 98
     },
-    "content": "metres. Body mass index is used to classify non-pregnant women (or \npregnant women within 12 weeks of pregnancy) as\u00a0follows: underweight \n(\u226418.5\u00a0kg/m2), normal weight (18.5 kg/m2 \u2013 24.9 kg/m2), overweight \n(25\u00a0kg/m2 \u2013 29.9 kg/m2) and obese \u226530 kg/m2). \nIron deficiency anaemia A form of nutritional anaemia that results when iron intake is insufficient \nto meet the demands for synthesis of haemoglobin and erythrocytes. \nIron deficiency is the most common cause of anaemia among non-",
-    "content_length": 484
+    "content": "Overview of the nutritional situation of women",
+    "content_length": 46
   },
   {
     "rank": 4,
     "metadata": {
-      "producer": "Adobe PDF Library 16.0.5",
-      "creator": "Adobe InDesign 17.1 (Macintosh)",
-      "creationdate": "2022-02-04T11:50:47-05:00",
-      "moddate": "2022-02-04T11:51:05-05:00",
-      "trapped": "/False",
       "source": "data\\Maternal Nutrition Programming Guidance.pdf",
-      "total_pages": 64,
-      "page": 63,
-      "page_label": "64"
+      "coordinates": {
+        "points": [
+          [
+            406.0,
+            892.0
+          ],
+          [
+            406.0,
+            916.0
+          ],
+          [
+            596.0,
+            916.0
+          ],
+          [
+            596.0,
+            892.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1700,
+        "layout_height": 2200
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-03T09:49:06",
+      "page_number": 4,
+      "file_directory": "data",
+      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "category": "Title",
+      "element_id": "46c81abead80d073481640629178a5d7",
+      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_39",
+      "chunk_index": 39
     },
-    "content": "64  UNICEF Programming Guidance\n\u00a9 United Nations Children\u2019s Fund (UNICEF)\nJanuary 2022\nPermission is required to reproduce any part of this publication. \nPermissions will be freely granted to educational or non-profit \norganizations. \nPublished by:\nUNICEF \nNutrition and Child Development Section, Programme Group\n3 United Nations Plaza\nNew York, NY 10017\nUSA",
-    "content_length": 359
+    "content": "Low birthweight",
+    "content_length": 15
   },
   {
     "rank": 5,
     "metadata": {
-      "producer": "Adobe PDF Library 16.0.5",
-      "creator": "Adobe InDesign 17.1 (Macintosh)",
-      "creationdate": "2022-02-04T11:50:47-05:00",
-      "moddate": "2022-02-04T11:51:05-05:00",
-      "trapped": "/False",
       "source": "data\\Maternal Nutrition Programming Guidance.pdf",
-      "total_pages": 64,
-      "page": 4,
-      "page_label": "5"
+      "coordinates": {
+        "points": [
+          [
+            870.0,
+            601.0
+          ],
+          [
+            870.0,
+            624.0
+          ],
+          [
+            1348.0,
+            624.0
+          ],
+          [
+            1348.0,
+            601.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1700,
+        "layout_height": 2200
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-03T09:49:06",
+      "page_number": 12,
+      "file_directory": "data",
+      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "category": "Title",
+      "element_id": "eb7bc81cdc025c36331e101516bc49e8",
+      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_173",
+      "chunk_index": 173
     },
-    "content": "Maternal Nutrition  5\nKey definitions\nAdolescent An individual aged 10\u201319 years. \nAnaemia A pathological condition characterized by low levels of haemoglobin \nor poor oxygen carrying capacity of the red blood cells. Anaemia is an \nindicator of poor nutrition, health and wellbeing. \nBody mass index An individual\u2019s weight in kilograms divided by the square of height in \nmetres. Body mass index is used to classify non-pregnant women (or",
-    "content_length": 437
+    "content": "Causes of poor nutrition in women",
+    "content_length": 33
   },
   {
     "rank": 6,
     "metadata": {
-      "producer": "Adobe PDF Library 16.0.5",
-      "creator": "Adobe InDesign 17.1 (Macintosh)",
-      "creationdate": "2022-02-04T11:50:47-05:00",
-      "moddate": "2022-02-04T11:51:05-05:00",
-      "trapped": "/False",
       "source": "data\\Maternal Nutrition Programming Guidance.pdf",
-      "total_pages": 64,
-      "page": 62,
-      "page_label": "63"
+      "coordinates": {
+        "points": [
+          [
+            407.0,
+            823.0
+          ],
+          [
+            407.0,
+            843.0
+          ],
+          [
+            608.0,
+            843.0
+          ],
+          [
+            608.0,
+            823.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1700,
+        "layout_height": 2200
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-03T09:49:06",
+      "page_number": 4,
+      "file_directory": "data",
+      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "category": "Title",
+      "element_id": "c074434e0cc19f09ba2d25291960f77b",
+      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_38",
+      "chunk_index": 38
     },
-    "content": "(2020). Core Commitments for \nChildren in Humanitarian Action. \nGender Equality. UNICEF: New \nYork.\n137. United Nations Children\u2019s Fund, \nWorld Food Programme. (2020). \nAddressing Wasting in Children \nGlobally. UNICEF and WFP \nPartnership Framework",
-    "content_length": 248
+    "content": "Iron and folic acid",
+    "content_length": 19
   },
   {
     "rank": 7,
     "metadata": {
-      "producer": "Adobe PDF Library 16.0.5",
-      "creator": "Adobe InDesign 17.1 (Macintosh)",
-      "creationdate": "2022-02-04T11:50:47-05:00",
-      "moddate": "2022-02-04T11:51:05-05:00",
-      "trapped": "/False",
       "source": "data\\Maternal Nutrition Programming Guidance.pdf",
-      "total_pages": 64,
-      "page": 34,
-      "page_label": "35"
+      "coordinates": {
+        "points": [
+          [
+            205.0,
+            378.0
+          ],
+          [
+            205.0,
+            402.0
+          ],
+          [
+            725.0,
+            402.0
+          ],
+          [
+            725.0,
+            378.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1700,
+        "layout_height": 2200
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-03T09:49:06",
+      "page_number": 42,
+      "file_directory": "data",
+      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "category": "Title",
+      "element_id": "8ce0fe3c5e65dd4845f05eacf2cfe93e",
+      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_630",
+      "chunk_index": 630
     },
-    "content": "to ensure that women who are suffering from \nanaemia receive nutrition services, including timely \nscreening and treatment with recommended \nmicronutrient supplements.",
-    "content_length": 167
+    "content": "Analyse the nutrition situation of women",
+    "content_length": 40
   },
   {
     "rank": 8,
     "metadata": {
-      "producer": "Adobe PDF Library 16.0.5",
-      "creator": "Adobe InDesign 17.1 (Macintosh)",
-      "creationdate": "2022-02-04T11:50:47-05:00",
-      "moddate": "2022-02-04T11:51:05-05:00",
-      "trapped": "/False",
       "source": "data\\Maternal Nutrition Programming Guidance.pdf",
-      "total_pages": 64,
-      "page": 62,
-      "page_label": "63"
+      "coordinates": {
+        "points": [
+          [
+            406.0,
+            753.0
+          ],
+          [
+            406.0,
+            777.0
+          ],
+          [
+            877.0,
+            777.0
+          ],
+          [
+            877.0,
+            753.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1700,
+        "layout_height": 2200
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-03T09:49:06",
+      "page_number": 4,
+      "file_directory": "data",
+      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "category": "Title",
+      "element_id": "6e5bf4729da390e990731c546a698812",
+      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_37",
+      "chunk_index": 37
     },
-    "content": "Care for Women in Pregnancy. \nUNICEF: Copenhagen.\n134. Nutriset. 2021; Available from: \nhttps://www.nutriset.fr/products/\nen/enov-mum.\n135. Gillespie, S.M., Menon, P., \nHeidkamp, R., et al et al. (2019). \nMeasuring the coverage of \nnutrition interventions along the \ncontinuum of care: Time to act \nat scale. BMJ Global Health \n4(Supplement 4): i133\u2013i142. \n136. United Nations Children\u2019s Fund. \n(2020). Core Commitments for \nChildren in Humanitarian Action. \nGender Equality. UNICEF: New \nYork.",
-    "content_length": 494
+    "content": "Health management information system",
+    "content_length": 36
   },
   {
     "rank": 9,
     "metadata": {
-      "producer": "Adobe PDF Library 16.0.5",
-      "creator": "Adobe InDesign 17.1 (Macintosh)",
-      "creationdate": "2022-02-04T11:50:47-05:00",
-      "moddate": "2022-02-04T11:51:05-05:00",
-      "trapped": "/False",
       "source": "data\\Maternal Nutrition Programming Guidance.pdf",
-      "total_pages": 64,
-      "page": 34,
-      "page_label": "35"
+      "coordinates": {
+        "points": [
+          [
+            862.0,
+            672.0
+          ],
+          [
+            862.0,
+            1021.0
+          ],
+          [
+            1463.0,
+            1021.0
+          ],
+          [
+            1463.0,
+            672.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1700,
+        "layout_height": 2200
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-03T09:49:06",
+      "page_number": 12,
+      "parent_id": "eb7bc81cdc025c36331e101516bc49e8",
+      "file_directory": "data",
+      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "category": "NarrativeText",
+      "element_id": "e42db49df19551c8764625578edb6d82",
+      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_174",
+      "chunk_index": 174
     },
-    "content": "iron and 400 \u03bcg of folic acid until haemoglobin levels \nreturn to normal (11 g/dl or higher) (see Table\u00a03). \nEnsuring the availability of therapeutic doses \nas part of ANC services is important to provide \ntimely treatment of anaemia. In the absence of a \ntherapeutic doses, women may be prescribed two \nof the standard IFA supplements. \nUNICEF will also support policies and programmes \nto ensure that women who are suffering from \nanaemia receive nutrition services, including timely",
-    "content_length": 485
+    "content": "At all stages of life, malnutrition in women is the result of poor-quality diets, poor services, poor practices and a weak enabling environment. Women's access to diets and care are constrained by several factors, including limited availability of and access to nutritious, safe and affordable foods; limited opportunities for women to access nutrition services; limited knowledge of the importance of preconception nutrition care; and harmful gendered social norms and social and cultural practices.",
+    "content_length": 500
   },
   {
     "rank": 10,
     "metadata": {
-      "producer": "Adobe PDF Library 16.0.5",
-      "creator": "Adobe InDesign 17.1 (Macintosh)",
-      "creationdate": "2022-02-04T11:50:47-05:00",
-      "moddate": "2022-02-04T11:51:05-05:00",
-      "trapped": "/False",
       "source": "data\\Maternal Nutrition Programming Guidance.pdf",
-      "total_pages": 64,
-      "page": 62,
-      "page_label": "63"
+      "coordinates": {
+        "points": [
+          [
+            406.0,
+            683.0
+          ],
+          [
+            406.0,
+            707.0
+          ],
+          [
+            670.0,
+            707.0
+          ],
+          [
+            670.0,
+            683.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1700,
+        "layout_height": 2200
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-03T09:49:06",
+      "page_number": 4,
+      "file_directory": "data",
+      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "category": "Title",
+      "element_id": "21c2dc3c398d6e792d7816e81a622375",
+      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_36",
+      "chunk_index": 36
     },
-    "content": "lipid-based nutrient supplements.  \nMaternal & Child Nutrition, 16(S3): \np. e12960.\n132. Dewey, K.G., Matias, S.L., Mridha, \nM.K. et al. (2020). Nutrient \nsupplementation during the first \n1000 days and growth of infants \nborn to pregnant adolescents. \nAnn N Y Acad Sci. 2020 \nMay;1468(1):25-34. \n133. United Nations Children\u2019s Fund. \n(2021). Technical Bulletin No. 26. \nCommodities to Support Nutrition \nCare for Women in Pregnancy. \nUNICEF: Copenhagen.\n134. Nutriset. 2021; Available from:",
-    "content_length": 491
+    "content": "High-income countries",
+    "content_length": 21
   }
 ]

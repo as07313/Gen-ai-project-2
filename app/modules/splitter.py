@@ -1,5 +1,6 @@
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import json
+import os
 
 def split_documents(documents, chunk_size=1000, chunk_overlap=100):
     """
@@ -23,6 +24,14 @@ def split_documents(documents, chunk_size=1000, chunk_overlap=100):
     print(f"Total chunks after splitting: {len(chunks)}")
     print(f"Sample chunk metadata: {chunks[0].metadata}")
     print(f"Sample chunk content: {chunks[0].page_content}")
+
+
+    source_filename = os.path.basename(documents[0].metadata.get("source", "unknown_source"))
+    for i, chunk in enumerate(chunks):
+        chunk.metadata["persistent_chunk_id"] = f"{source_filename}_chunk_{i}"
+        chunk.metadata["chunk_index"] = i # Add index if not already present reliably
+
+
     
     # Save some sample chunks to a file for inspection
     sample_chunks = []

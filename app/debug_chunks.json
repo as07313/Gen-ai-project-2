@@ -2,81 +2,217 @@
   {
     "chunk_index": 0,
     "metadata": {
-      "producer": "Adobe PDF Library 16.0.5",
-      "creator": "Adobe InDesign 17.1 (Macintosh)",
-      "creationdate": "2022-02-04T11:50:47-05:00",
-      "moddate": "2022-02-04T11:51:05-05:00",
-      "trapped": "/False",
       "source": "data\\Maternal Nutrition Programming Guidance.pdf",
-      "total_pages": 64,
-      "page": 0,
-      "page_label": "1"
+      "coordinates": {
+        "points": [
+          [
+            161.0,
+            162.0
+          ],
+          [
+            161.0,
+            323.0
+          ],
+          [
+            508.0,
+            323.0
+          ],
+          [
+            508.0,
+            162.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1700,
+        "layout_height": 2200
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-03T09:49:06",
+      "page_number": 1,
+      "file_directory": "data",
+      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "category": "Title",
+      "element_id": "ea69e77da395804402bbca3b2a23ae1f",
+      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_0",
+      "chunk_index": 0
     },
-    "content": "NUTRITION GUIDANCE SERIES\nUNICEF\nPROGRAMMING\nGUIDANCE\nMaternal Nutrition\nPrevention of malnutrition in women \nbefore and during pregnancy and \nwhile\u00a0breastfeeding",
-    "content_length": 162
+    "content": "UNICEF PROGRAMMING GUIDANCE",
+    "content_length": 27
   },
   {
     "chunk_index": 1,
     "metadata": {
-      "producer": "Adobe PDF Library 16.0.5",
-      "creator": "Adobe InDesign 17.1 (Macintosh)",
-      "creationdate": "2022-02-04T11:50:47-05:00",
-      "moddate": "2022-02-04T11:51:05-05:00",
-      "trapped": "/False",
       "source": "data\\Maternal Nutrition Programming Guidance.pdf",
-      "total_pages": 64,
-      "page": 1,
-      "page_label": "2"
+      "coordinates": {
+        "points": [
+          [
+            153.0,
+            394.0
+          ],
+          [
+            153.0,
+            466.0
+          ],
+          [
+            962.0,
+            466.0
+          ],
+          [
+            962.0,
+            394.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1700,
+        "layout_height": 2200
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-03T09:49:06",
+      "page_number": 1,
+      "file_directory": "data",
+      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "category": "Title",
+      "element_id": "e8bd19218ed7d140412ed7903e453df5",
+      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_1",
+      "chunk_index": 1
     },
-    "content": "2  UNICEF Programming Guidance\nAcknowledgements \nThis publication was prepared by the Nutrition and Child Development \nGroup at UNICEF Programme Division in New York.\nLead authors: Nita Dalmiya, Roland Kupka, Vilma Tyler and Victor Aguayo. \nTechnical reviewers and contributors: Maaike Arts, Jessica Blankenship, \nElizabeth Fox, Tedbabe Degefie Hailegebriel, Shreyasi Jha, Justine Kavle, \nErin\u00a0McLean, Zivai Murira, Sim\u00e9on Nanema, John Ntambi, Rebecca\u00a0Olson, \nChristiane Rudert, Fanny Sandalinas, Sagri Singh, Harriet Torlesse, \nMarjorie\u00a0Volege, Amirhossein Yarparvar, and Charity Zvandaziva. \nDesign: Nona Reuter; Editing: Julia D\u2019Aloisio \nThis publication is based on research funded in part by the Bill & Melinda \nGates Foundation. The findings and conclusions contained within are \nthose of the authors and do not necessarily reflect positions or policies of \nthe Bill & Melinda Gates Foundation\nSuggested citation: United Nations Children\u2019s Fund. UNICEF Programming",
-    "content_length": 970
+    "content": "Maternal Nutrition",
+    "content_length": 18
   },
   {
     "chunk_index": 2,
     "metadata": {
-      "producer": "Adobe PDF Library 16.0.5",
-      "creator": "Adobe InDesign 17.1 (Macintosh)",
-      "creationdate": "2022-02-04T11:50:47-05:00",
-      "moddate": "2022-02-04T11:51:05-05:00",
-      "trapped": "/False",
       "source": "data\\Maternal Nutrition Programming Guidance.pdf",
-      "total_pages": 64,
-      "page": 1,
-      "page_label": "2"
+      "coordinates": {
+        "points": [
+          [
+            150.0,
+            520.0
+          ],
+          [
+            150.0,
+            699.0
+          ],
+          [
+            1113.0,
+            699.0
+          ],
+          [
+            1113.0,
+            520.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1700,
+        "layout_height": 2200
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-03T09:49:06",
+      "page_number": 1,
+      "parent_id": "e8bd19218ed7d140412ed7903e453df5",
+      "file_directory": "data",
+      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "category": "NarrativeText",
+      "element_id": "66970b92a073b4deaf5b82443558eeb6",
+      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_2",
+      "chunk_index": 2
     },
-    "content": "Suggested citation: United Nations Children\u2019s Fund. UNICEF Programming \nGuidance. Prevention of malnutrition in women before and during pregnancy and \nwhile breastfeeding. New York: UNICEF, 2021.\nJanuary 2022\nPhotography credits: :  Cover: \u00a9 UNICEF/UNI338812; page 8: page 12: \n\u00a9\u00a0UNICEF/UN0212548/Noorani; page 16: \u00a9 UNICEF/UN0294302/Ralaivita; \npage 18: \u00a9 UNICEF/UN0267739/Frazier; page 24: \u00a9 UNICEF/UN0288732/\nViet Hung; page 27: \u00a9 UNICEF/UN0187556/Njiokiktjien VII Photo; page 30: \n\u00a9\u00a0UNICEF/UN0207236/Sibiloni; page 32: \u00a9 UNICEF/UN0520286/Arcos; page \n37: \u00a9 UNICEF/UN0270488/van Oorsouw; page 39:\u00a9 UNICEF/UN0563585/\nAbdul; page 41: \u00a9 UNICEF/UN0491508/Vishwanathan; page 43: \u00a9 UNICEF/\nUN0205327; page 45: \u00a9 UNICEF/UN0205719/Njiokiktjien VII Photo; page 48: \n\u00a9\u00a0UNICEF/UN0383981/Ralaivita; page 52: \u00a9 UNICEF/UNI290285/Narain",
-    "content_length": 824
+    "content": "Prevention of malnutrition in women before and during pregnancy and while breastfeeding",
+    "content_length": 87
   },
   {
     "chunk_index": 3,
     "metadata": {
-      "producer": "Adobe PDF Library 16.0.5",
-      "creator": "Adobe InDesign 17.1 (Macintosh)",
-      "creationdate": "2022-02-04T11:50:47-05:00",
-      "moddate": "2022-02-04T11:51:05-05:00",
-      "trapped": "/False",
       "source": "data\\Maternal Nutrition Programming Guidance.pdf",
-      "total_pages": 64,
-      "page": 2,
-      "page_label": "3"
+      "coordinates": {
+        "points": [
+          [
+            151.0,
+            2036.0
+          ],
+          [
+            151.0,
+            2064.0
+          ],
+          [
+            734.0,
+            2064.0
+          ],
+          [
+            734.0,
+            2036.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1700,
+        "layout_height": 2200
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-03T09:49:06",
+      "page_number": 1,
+      "file_directory": "data",
+      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "category": "Title",
+      "element_id": "0fc4c71c3f6178b05eadfca4ce517f55",
+      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_3",
+      "chunk_index": 3
     },
-    "content": "Maternal Nutrition  3\nContents\nAbbreviations  4\nKey definitions 5\nExecutive summary  6\nAbout this guidance  7\n1. Introduction  8\nWhy women\u2019s nutrition matters 9\nGlobal prevalence of malnutrition in women 10\nConsequences of malnutrition in women and children 10\nCauses of poor nutrition in women  12\nGlobal goals and targets on women\u2019s nutrition  14\nExisting global guidance and recommendations on women\u2019s nutrition  15\n2. Strategic framework: Preventing all forms of malnutrition in women  16\n3. Programmatic priorities  18\nFive programming priorities  19\nMaternal nutrition interventions across the life course 20\nProgrammatic priority 1. Women\u2019s nutrition before pregnancy  21\nProgrammatic priority 2.  Women\u2019s nutrition during pregnancy  22\nProgrammatic priority 3.  Women\u2019s nutrition while breastfeeding  31\nProgrammatic priority 4.  Nutrition of adolescent mothers and nutritionally at-risk women  33\nProgrammatic priority 5.  Innovations for maternal nutrition  36\n4. Programming principles  37",
-    "content_length": 1000
+    "content": "NUTRITION GUIDANCE SERIES",
+    "content_length": 25
   },
   {
     "chunk_index": 4,
     "metadata": {
-      "producer": "Adobe PDF Library 16.0.5",
-      "creator": "Adobe InDesign 17.1 (Macintosh)",
-      "creationdate": "2022-02-04T11:50:47-05:00",
-      "moddate": "2022-02-04T11:51:05-05:00",
-      "trapped": "/False",
       "source": "data\\Maternal Nutrition Programming Guidance.pdf",
-      "total_pages": 64,
-      "page": 2,
-      "page_label": "3"
+      "coordinates": {
+        "points": [
+          [
+            205.0,
+            204.0
+          ],
+          [
+            205.0,
+            245.0
+          ],
+          [
+            672.0,
+            245.0
+          ],
+          [
+            672.0,
+            204.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1700,
+        "layout_height": 2200
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-03T09:49:06",
+      "page_number": 2,
+      "file_directory": "data",
+      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "category": "Title",
+      "element_id": "cfb5e71cba95fdec291754b5ec641b4e",
+      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_4",
+      "chunk_index": 4
     },
-    "content": "Programmatic priority 5.  Innovations for maternal nutrition  36\n4. Programming principles  37\n5. A systems approach to preventing all forms of malnutrition in women 39\n6. Programming, partnerships and coordination  41\n7. Monitoring and reporting  48\nAnnexes 52\nEndnotes 58",
-    "content_length": 273
+    "content": "Acknowledgements",
+    "content_length": 16
   }
 ]

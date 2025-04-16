@@ -99,6 +99,8 @@ def retrieve_documents(query, vector_store, documents: List[Document], top_k=5, 
         doc_id_to_doc[doc_id] = doc
     rankings.append(vs_ranking)
 
+
+
     # BM25 rankings
     bm25_ranking = {}
     for rank, doc in enumerate(bm25_docs):
@@ -124,7 +126,7 @@ def retrieve_documents(query, vector_store, documents: List[Document], top_k=5, 
     print("Top documents after fusion:")
     for i, (doc_id, score) in enumerate(sorted_doc_ids[:top_k]):
         doc = doc_id_to_doc[doc_id]
-        print(f"  [Final Rank {i+1}] Doc id={doc_id} | RRF score={score:.6f} | Page={doc.metadata.get('page', 'unknown')} | Source={doc.metadata.get('source', 'unknown')[:40]}...")
+        print(f"  [Final Rank {i+1}] Doc id={doc_id} | RRF score={score:.6f} | Page={doc.metadata.get('page_number', 'unknown')} | Source={doc.metadata.get('source', 'unknown')[:40]}...")
 
     # Log retrieval results to a file
     retrieval_results = []
