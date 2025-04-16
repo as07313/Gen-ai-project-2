@@ -1,0 +1,5 @@
+QUERY:
+what is Anaemia?
+
+RESPONSE:
+Anaemia is a pathological condition characterized by low levels of haemoglobin or poor oxygen carrying capacity of the red blood cells. Anaemia is an indicator of poor nutrition, health, and wellbeing (Source: Document 5, Page 5). Iron deficiency anaemia specifically results when iron intake is insufficient to meet the demands for the synthesis of haemoglobin and erythrocytes, and it is the most common cause of anaemia among non-pregnant and pregnant women (Source: Document 3, Page 4).

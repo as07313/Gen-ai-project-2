@@ -5,14 +5,14 @@ from langchain.schema import HumanMessage
 
 def generate_response(query, documents):
     """
-    Generate a response based on the query and retrieved documents.
+    Generate a response based on the query and retrieved documents, including citations.
 
     Args:
         query (str): The user's query.
         documents (list): List of relevant Document objects.
 
     Returns:
-        str: Generated response.
+        str: Generated response with citations.
     """
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
@@ -24,12 +24,14 @@ def generate_response(query, documents):
         
         llm = ChatOpenAI(api_key=api_key)
         
-        # Format the context from retrieved documents
-        context = "\n\n".join([f"Document {i+1} (Source: {doc.metadata.get('source', 'unknown')}): {doc.page_content}" 
-                               for i, doc in enumerate(documents)])
+        # Format the context from retrieved documents, including source information
+        context = "\n\n".join([
+            f"Document {i+1} (Source: {doc.metadata.get('source', 'unknown')}, Page: {doc.metadata.get('page', 'unknown')}): {doc.page_content}"
+            for i, doc in enumerate(documents)
+        ])
         
-        # Create the prompt
-        prompt = f"Context:\n{context}\n\nQuestion: {query}\nAnswer:"
+        # Create the prompt, instructing the model to cite sources
+        prompt = f"Context:\n{context}\n\nQuestion: {query}\nAnswer: (Please cite sources as [Source: Document Number, Page Number])"
         
         # Save prompt for debugging
         debug_info = {

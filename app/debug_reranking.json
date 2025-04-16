@@ -1,0 +1,76 @@
+{
+  "query": "What is maternal health?",
+  "original_docs_count": 21,
+  "reranked_docs": [
+    {
+      "original_index": 9,
+      "relevance_score": 0.27532452,
+      "source_file": "Maternal Nutrition Programming Guidance.pdf",
+      "page": 38,
+      "content_preview": "Maternal Nutrition  39\n5.\nA systems \napproach to \npreventing \nall forms of \nmalnutrition \nin women"
+    },
+    {
+      "original_index": 0,
+      "relevance_score": 0.19744445,
+      "source_file": "Maternal Nutrition Programming Guidance.pdf",
+      "page": 12,
+      "content_preview": "quality. Moreover, sedentary lifestyles and limited \nopportunities for exercise may prevent women fr..."
+    },
+    {
+      "original_index": 12,
+      "relevance_score": 0.19544049,
+      "source_file": "Maternal Nutrition Programming Guidance.pdf",
+      "page": 41,
+      "content_preview": "maternal nutrition interventions in existing \nplatforms and systems (such as health, water and \nsani..."
+    },
+    {
+      "original_index": 13,
+      "relevance_score": 0.19223589,
+      "source_file": "Maternal Nutrition Programming Guidance.pdf",
+      "page": 13,
+      "content_preview": "in policies and programmes targeting this critical \ndevelopmental period.58, 64  A lack of prioritiz..."
+    },
+    {
+      "original_index": 3,
+      "relevance_score": 0.18609506,
+      "source_file": "Maternal Nutrition Programming Guidance.pdf",
+      "page": 8,
+      "content_preview": "Maternal Nutrition  9\nOverview of the nutritional situation of \nwomen \nWhy women\u2019s nutrition matters..."
+    },
+    {
+      "original_index": 10,
+      "relevance_score": 0.18155324,
+      "source_file": "Maternal Nutrition Programming Guidance.pdf",
+      "page": 54,
+      "content_preview": "6. Monitoring nutritional status \n\u2022 Screen all women for any nutritional deficiencies or disorders.\n..."
+    },
+    {
+      "original_index": 17,
+      "relevance_score": 0.17217185,
+      "source_file": "Maternal Nutrition Programming Guidance.pdf",
+      "page": 13,
+      "content_preview": "the risk of anaemia and LBW.60 \nPoor care practices. Malnutrition in women is \nrooted in poor care p..."
+    },
+    {
+      "original_index": 20,
+      "relevance_score": 0.16384642,
+      "source_file": "Maternal Nutrition Programming Guidance.pdf",
+      "page": 32,
+      "content_preview": "for malnutrition and poor pregnancy outcomes, \nand as such, require additional attention and \nsuppor..."
+    },
+    {
+      "original_index": 8,
+      "relevance_score": 0.15115306,
+      "source_file": "Maternal Nutrition Programming Guidance.pdf",
+      "page": 14,
+      "content_preview": "Maternal Nutrition  15\nBox 1.\nGlobal goals and targets associated with women\u2019s \nnutrition\nSustainabl..."
+    },
+    {
+      "original_index": 7,
+      "relevance_score": 0.14547919,
+      "source_file": "Maternal Nutrition Programming Guidance.pdf",
+      "page": 41,
+      "content_preview": "\u2022 Advocate for the inclusion of maternal nutrition \nservices in the benefit package for universal \nh..."
+    }
+  ]
+}
