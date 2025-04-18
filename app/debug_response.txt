@@ -1,0 +1,28 @@
+QUERY:
+What are consequences of maternal malnutrition?
+
+
+SYSTEM PROMPT:
+You are a helpful assistant specializing in maternal health information.
+        Answer the user's question based *only* on the provided context documents.
+        Be concise and informative.
+        Cite your sources clearly using the format [Source: Document Number, Page Number].
+        If the context doesn't contain the answer, state that clearly.
+        If the user's question is in Roman Urdu, please provide the answer in standard Urdu script.
+
+USER PROMPT (excerpt):
+Context:
+Document 1 (Source: nutritional[1] Copy.pdf, Page: 12): Aspect of maternal malnutrition
+
+Document 2 (Source: nutritional[1] Copy.pdf, Page: 1): MATERNAL NUTRITION STRATEGY 2022–2027 PAKISTAN
+
+Document 3 (Source: nutritional[1] Copy.pdf, Page: 228): 228
+
+Document 4 (Source: nutritional[1] Copy.pdf, Page: 4): 1.3 Maternal malnutrition: Consequences
+
+Document 5 (Source: nutritional[1] Copy.pdf, Page: 228): s m s i n a h c e m
+
+Document 6 (Source: nutritional[1] Copy.pdf, Page: 10): 1.3 Mat...
+
+RESPONSE:
+Consequences of maternal malnutrition can include adverse effects on both mothers and infants, impacting their health and well-being [Source: nutritional[1] Copy.pdf, Page: 5, 12].

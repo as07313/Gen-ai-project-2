@@ -1,11 +1,74 @@
 [
   {
-    "query": "What is the most important aspect of maternal health according to the context given?",
-    "generated_answer": "The most important aspect of maternal health according to the context provided is the reduction in maternal mortality [Source: Document 6, Page 14], [Source: Document 7, Page 16], [Source: Document 9, Page 16].",
-    "reference_answers": "Maternal nutrition is the cornerstone of maternal and child health, and needs special focus and attention to prevent stunting and wasting among children.",
+    "query": "What is the triple burden of maternal malnutrition identified in Pakistan?",
+    "generated_answer": "The triple burden of maternal malnutrition in Pakistan is characterized by inadequate household food and nutrition security, inadequate health services and care practices, and gender inequality [Source: Document 3].",
+    "reference_answers": "The triple burden includes undernutrition, overweight/obesity, and micronutrient deficiencies.",
     "rouge1_f1": 0.0,
     "rouge2_f1": 0.0,
     "rougeL_f1": 0.0,
-    "bleu": 0.0045491487595968995
+    "bleu": 0.0063161840849674045
+  },
+  {
+    "query": "What percentage of women of reproductive age in Pakistan were anaemic according to the NNS 2018?",
+    "generated_answer": "According to the National Nutrition Survey (NNS) 2018, 41.7% of women of reproductive age in Pakistan were anaemic [Source: Document 8, Page 6].",
+    "reference_answers": "41.7% of women of reproductive age were anaemic.",
+    "rouge1_f1": 0.07999999999999999,
+    "rouge2_f1": 0.0,
+    "rougeL_f1": 0.07999999999999999,
+    "bleu": 0.006938247178254633
+  },
+  {
+    "query": "What are the primary outcomes the Maternal Nutrition Strategy aims to achieve?",
+    "generated_answer": "The primary outcomes the Maternal Nutrition Strategy aims to achieve include reducing the incidence of women who are underweight, overweight, obese, or suffer from anaemia, reducing the prevalence of micronutrient deficiencies, reducing low birth weight among children, and increasing the consumption of iron and folic acid supplements and multiple micronutrient supplements [Source: Document 7, Page 32].",
+    "reference_answers": "To prevent undernutrition, anaemia, micronutrient deficiencies, overweight among women, and low birth weight in newborns; and to provide evidence-based, equity-based nutrition programs focusing on preconception, pregnancy, and postpartum periods.",
+    "rouge1_f1": 0.0,
+    "rouge2_f1": 0.0,
+    "rougeL_f1": 0.0,
+    "bleu": 0.0032290850333869447
+  },
+  {
+    "query": "Which organization supported the development of the Maternal Nutrition Strategy technically and financially?",
+    "generated_answer": "The document does not provide information about the specific organization that supported the development of the Maternal Nutrition Strategy technically and financially.",
+    "reference_answers": "UNICEF Pakistan Country Office.",
+    "rouge1_f1": 0.0,
+    "rouge2_f1": 0.0,
+    "rougeL_f1": 0.0,
+    "bleu": 0.008282282660969604
+  },
+  {
+    "query": "What is the minimum dietary diversity threshold for women according to the strategy?",
+    "generated_answer": "The minimum dietary diversity threshold for women according to the maternal nutrition strategy is consuming at least 15g of food from at least five of the specified 10 food groups as outlined in the document [Source: Document 6].",
+    "reference_answers": "Consuming food from at least 5 out of 10 defined food groups.",
+    "rouge1_f1": 0.0,
+    "rouge2_f1": 0.0,
+    "rougeL_f1": 0.0,
+    "bleu": 0.004392487796991638
+  },
+  {
+    "query": "What are two major determinants of maternal malnutrition in Pakistan?",
+    "generated_answer": "Two major determinants of maternal malnutrition in Pakistan are inadequate household food and nutrition security, and inadequate health services and care practices [Source: data\\nutritional[1] Copy.pdf, Page: 23].",
+    "reference_answers": "Inadequate household food security and gender inequality.",
+    "rouge1_f1": 0.0,
+    "rouge2_f1": 0.0,
+    "rougeL_f1": 0.0,
+    "bleu": 0.005011724662824517
+  },
+  {
+    "query": "Which provinces have integrated nutrition into their overarching health programs?",
+    "generated_answer": "In Punjab, nutrition is integrated into the health sector through the Integrated Reproductive Maternal Neonatal Child Health and Nutrition (IRMNCH&N) Programme. In Khyber Pakhtunkhwa, nutrition is being reincorporated into the Integrated Health Programme (IHP) alongside maternal, newborn, and child health programs. However, in Sindh and Balochistan, nutrition is managed separately from health sector programs, with efforts being made to improve coordination with maternal nutrition actions [Source: Document 5].",
+    "reference_answers": "Punjab and Khyber Pakhtunkhwa.",
+    "rouge1_f1": 0.02857142857142857,
+    "rouge2_f1": 0.0,
+    "rougeL_f1": 0.02857142857142857,
+    "bleu": 0.0024735945764034315
+  },
+  {
+    "query": "What are the WHO's recommended nutrition-specific interventions during pregnancy?",
+    "generated_answer": "The WHO recommends a comprehensive package of evidence-based interventions for maternal nutrition across preconception and pregnancy. These interventions are guided by global guidance and recommendations from the World Health Organization, the World Health Assembly, and other global authorities [Source: data\\nutritional[1] Copy.pdf, Page: 34]. For specific details on WHO's recommended nutrition-specific interventions during pregnancy, refer to the antenatal care recommendations provided by the WHO [Source: data\\nutritional[1] Copy.pdf, Page: 5].",
+    "reference_answers": "Interventions include dietary counselling, iron and folic acid supplementation, balanced energy-protein supplementation, and multiple micronutrient supplementation.",
+    "rouge1_f1": 0.025641025641025647,
+    "rouge2_f1": 0.0,
+    "rougeL_f1": 0.025641025641025647,
+    "bleu": 0.002615117268701878
   }
 ]
