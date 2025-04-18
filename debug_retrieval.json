@@ -2,106 +2,436 @@
   {
     "rank": 1,
     "metadata": {
-      "producer": "pdfTeX-1.40.25",
-      "creator": "LaTeX with hyperref",
-      "creationdate": "2024-04-10T21:11:43+00:00",
-      "author": "",
-      "keywords": "",
-      "moddate": "2024-04-10T21:11:43+00:00",
-      "ptex.fullbanner": "This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) kpathsea version 6.3.5",
-      "subject": "",
-      "title": "",
-      "trapped": "/False",
-      "source": "data\\sample.pdf",
-      "total_pages": 15,
-      "page": 2,
-      "page_label": "3"
+      "source": "data\\Maternal Nutrition Programming Guidance.pdf",
+      "coordinates": {
+        "points": [
+          [
+            221.0,
+            601.0
+          ],
+          [
+            221.0,
+            914.0
+          ],
+          [
+            835.0,
+            914.0
+          ],
+          [
+            835.0,
+            601.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1700,
+        "layout_height": 2200
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-03T09:49:06",
+      "page_number": 31,
+      "parent_id": "f40ca237eb0db3157999f9be834764dd",
+      "file_directory": "data",
+      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "category": "NarrativeText",
+      "element_id": "dc34d73d4924c929904d78f717db3383",
+      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_495",
+      "chunk_index": 495
     },
-    "content": "around each of the sub-layers, followed by layer normalization. We also modify the self-attention\nsub-layer in the decoder stack to prevent positions from attending to subsequent positions. This\nmasking, combined with fact that the output embeddings are offset by one position, ensures that the\npredictions for position i can depend only on the known outputs at positions less than i.\n3.2 Attention\nAn attention function can be described as mapping a query and a set of key-value pairs to an output,",
-    "content_length": 499
+    "content": "MUAC offers the advantage of being inexpensive, simple to use, and providing a narrow range of cut-off values for underweight status that are not affected by pregnancy status. It is increasingly being used to assess the nutritional status of pregnant women and determine their eligibility for nutrition support programmes, especially in emergency or humanitarian contexts when measuring weight and height may be difficult.\u20192\u00b0\"78 The MUAC",
+    "content_length": 437
   },
   {
     "rank": 2,
     "metadata": {
-      "producer": "pdfTeX-1.40.25",
-      "creator": "LaTeX with hyperref",
-      "creationdate": "2024-04-10T21:11:43+00:00",
-      "author": "",
-      "keywords": "",
-      "moddate": "2024-04-10T21:11:43+00:00",
-      "ptex.fullbanner": "This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) kpathsea version 6.3.5",
-      "subject": "",
-      "title": "",
-      "trapped": "/False",
-      "source": "data\\sample.pdf",
-      "total_pages": 15,
-      "page": 4,
-      "page_label": "5"
+      "source": "app/data\\Maternal Nutrition Programming Guidance.pdf",
+      "coordinates": {
+        "points": [
+          [
+            161.0,
+            162.0
+          ],
+          [
+            161.0,
+            323.0
+          ],
+          [
+            508.0,
+            323.0
+          ],
+          [
+            508.0,
+            162.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1700,
+        "layout_height": 2200
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-03T09:49:06",
+      "page_number": 1,
+      "file_directory": "app/data",
+      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "category": "Title",
+      "element_id": "ea69e77da395804402bbca3b2a23ae1f",
+      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_0",
+      "chunk_index": 0
     },
-    "content": "i , V WV\ni )\nWhere the projections are parameter matricesWQ\ni \u2208 Rdmodel\u00d7dk , WK\ni \u2208 Rdmodel\u00d7dk , WV\ni \u2208 Rdmodel\u00d7dv\nand WO \u2208 Rhdv\u00d7dmodel .\nIn this work we employ h = 8 parallel attention layers, or heads. For each of these we use\ndk = dv = dmodel/h = 64. Due to the reduced dimension of each head, the total computational cost\nis similar to that of single-head attention with full dimensionality.\n3.2.3 Applications of Attention in our Model",
-    "content_length": 440
+    "content": "UNICEF PROGRAMMING GUIDANCE",
+    "content_length": 27
   },
   {
     "rank": 3,
     "metadata": {
-      "producer": "pdfTeX-1.40.25",
-      "creator": "LaTeX with hyperref",
-      "creationdate": "2024-04-10T21:11:43+00:00",
-      "author": "",
-      "keywords": "",
-      "moddate": "2024-04-10T21:11:43+00:00",
-      "ptex.fullbanner": "This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) kpathsea version 6.3.5",
-      "subject": "",
-      "title": "",
-      "trapped": "/False",
-      "source": "data\\sample.pdf",
-      "total_pages": 15,
-      "page": 4,
-      "page_label": "5"
+      "source": "data\\Maternal Nutrition Programming Guidance.pdf",
+      "coordinates": {
+        "points": [
+          [
+            221.0,
+            1035.0
+          ],
+          [
+            221.0,
+            1234.0
+          ],
+          [
+            821.0,
+            1234.0
+          ],
+          [
+            821.0,
+            1035.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1700,
+        "layout_height": 2200
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-03T09:49:06",
+      "page_number": 31,
+      "parent_id": "f40ca237eb0db3157999f9be834764dd",
+      "file_directory": "data",
+      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "category": "NarrativeText",
+      "element_id": "cf4bdf7ab3605c92a0b449483e0489ab",
+      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_497",
+      "chunk_index": 497
     },
-    "content": "3.2.3 Applications of Attention in our Model\nThe Transformer uses multi-head attention in three different ways:\n\u2022 In \"encoder-decoder attention\" layers, the queries come from the previous decoder layer,\nand the memory keys and values come from the output of the encoder. This allows every\nposition in the decoder to attend over all positions in the input sequence. This mimics the\ntypical encoder-decoder attention mechanisms in sequence-to-sequence models such as\n[38, 2, 9].",
-    "content_length": 476
+    "content": "cm to <23 cm to identify women at nutritional risk.'* Because a recommendation for a universal MUAC cut-off for pregnant women has yet to be established, countries should consider undertaking a cost-benefit analysis to identify a context-specific MUAC cut-off.'2\u00b0 122",
+    "content_length": 267
   },
   {
     "rank": 4,
     "metadata": {
-      "producer": "pdfTeX-1.40.25",
-      "creator": "LaTeX with hyperref",
-      "creationdate": "2024-04-10T21:11:43+00:00",
-      "author": "",
-      "keywords": "",
-      "moddate": "2024-04-10T21:11:43+00:00",
-      "ptex.fullbanner": "This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) kpathsea version 6.3.5",
-      "subject": "",
-      "title": "",
-      "trapped": "/False",
-      "source": "data\\sample.pdf",
-      "total_pages": 15,
-      "page": 3,
-      "page_label": "4"
+      "source": "app/data\\Maternal Nutrition Programming Guidance.pdf",
+      "coordinates": {
+        "points": [
+          [
+            406.0,
+            892.0
+          ],
+          [
+            406.0,
+            916.0
+          ],
+          [
+            596.0,
+            916.0
+          ],
+          [
+            596.0,
+            892.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1700,
+        "layout_height": 2200
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-03T09:49:06",
+      "page_number": 4,
+      "file_directory": "app/data",
+      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "category": "Title",
+      "element_id": "46c81abead80d073481640629178a5d7",
+      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_39",
+      "chunk_index": 39
     },
-    "content": "Scaled Dot-Product Attention\n Multi-Head Attention\nFigure 2: (left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several\nattention layers running in parallel.\nof the values, where the weight assigned to each value is computed by a compatibility function of the\nquery with the corresponding key.\n3.2.1 Scaled Dot-Product Attention\nWe call our particular attention \"Scaled Dot-Product Attention\" (Figure 2). The input consists of",
-    "content_length": 453
+    "content": "Low birthweight",
+    "content_length": 15
   },
   {
     "rank": 5,
     "metadata": {
-      "producer": "pdfTeX-1.40.25",
-      "creator": "LaTeX with hyperref",
-      "creationdate": "2024-04-10T21:11:43+00:00",
-      "author": "",
-      "keywords": "",
-      "moddate": "2024-04-10T21:11:43+00:00",
-      "ptex.fullbanner": "This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) kpathsea version 6.3.5",
-      "subject": "",
-      "title": "",
-      "trapped": "/False",
-      "source": "data\\sample.pdf",
-      "total_pages": 15,
-      "page": 5,
-      "page_label": "6"
+      "source": "data\\Maternal Nutrition Programming Guidance.pdf",
+      "coordinates": {
+        "points": [
+          [
+            221.0,
+            313.0
+          ],
+          [
+            221.0,
+            553.0
+          ],
+          [
+            828.0,
+            553.0
+          ],
+          [
+            828.0,
+            313.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1700,
+        "layout_height": 2200
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-03T09:49:06",
+      "page_number": 31,
+      "parent_id": "f40ca237eb0db3157999f9be834764dd",
+      "file_directory": "data",
+      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "category": "NarrativeText",
+      "element_id": "dfb64e63f89b2b3bdc18ffec25eaacc9",
+      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_494",
+      "chunk_index": 494
     },
-    "content": "the maximum path length between any two input and output positions in networks composed of the\ndifferent layer types.\nAs noted in Table 1, a self-attention layer connects all positions with a constant number of sequentially\nexecuted operations, whereas a recurrent layer requires O(n) sequential operations. In terms of\ncomputational complexity, self-attention layers are faster than recurrent layers when the sequence\n6",
-    "content_length": 420
+    "content": "not feasible before or early in pregnancy, a MUAC measurement may be used as an alternative to BMI to identify pregnant women who are underweight and to determine the prevalence of underweight in the population.'2\u00b0'2! Low MUAC in pregnant women has been associated with intrauterine growth restriction, LBW and neonatal morbidity.'2\u00b0",
+    "content_length": 333
+  },
+  {
+    "rank": 6,
+    "metadata": {
+      "source": "app/data\\Maternal Nutrition Programming Guidance.pdf",
+      "coordinates": {
+        "points": [
+          [
+            407.0,
+            823.0
+          ],
+          [
+            407.0,
+            843.0
+          ],
+          [
+            608.0,
+            843.0
+          ],
+          [
+            608.0,
+            823.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1700,
+        "layout_height": 2200
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-03T09:49:06",
+      "page_number": 4,
+      "file_directory": "app/data",
+      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "category": "Title",
+      "element_id": "c074434e0cc19f09ba2d25291960f77b",
+      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_38",
+      "chunk_index": 38
+    },
+    "content": "Iron and folic acid",
+    "content_length": 19
+  },
+  {
+    "rank": 7,
+    "metadata": {
+      "source": "data\\Maternal Nutrition Programming Guidance.pdf",
+      "coordinates": {
+        "points": [
+          [
+            621.0,
+            618.0
+          ],
+          [
+            621.0,
+            751.0
+          ],
+          [
+            1477.0,
+            751.0
+          ],
+          [
+            1477.0,
+            618.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1700,
+        "layout_height": 2200
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-03T09:49:06",
+      "page_number": 5,
+      "parent_id": "180d7959d6b61dd619a6fe35178ed829",
+      "file_directory": "data",
+      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "category": "NarrativeText",
+      "element_id": "22151d4170532ebaa2fd8cf5d7f80c9b",
+      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_53",
+      "chunk_index": 53
+    },
+    "content": "An individual's weight in kilograms divided by the square of height in metres. Body mass index is used to classify non-pregnant women (or pregnant women within 12 weeks of pregnancy) as follows: underweight (<18.5 kg/m?), normal weight (18.5 kg/m? \u2014 24.9 kg/m?), overweight",
+    "content_length": 273
+  },
+  {
+    "rank": 8,
+    "metadata": {
+      "source": "app/data\\Maternal Nutrition Programming Guidance.pdf",
+      "coordinates": {
+        "points": [
+          [
+            406.0,
+            753.0
+          ],
+          [
+            406.0,
+            777.0
+          ],
+          [
+            877.0,
+            777.0
+          ],
+          [
+            877.0,
+            753.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1700,
+        "layout_height": 2200
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-03T09:49:06",
+      "page_number": 4,
+      "file_directory": "app/data",
+      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "category": "Title",
+      "element_id": "6e5bf4729da390e990731c546a698812",
+      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_37",
+      "chunk_index": 37
+    },
+    "content": "Health management information system",
+    "content_length": 36
+  },
+  {
+    "rank": 9,
+    "metadata": {
+      "source": "data\\Maternal Nutrition Programming Guidance.pdf",
+      "coordinates": {
+        "points": [
+          [
+            356.0,
+            572.0
+          ],
+          [
+            356.0,
+            624.0
+          ],
+          [
+            1018.0,
+            624.0
+          ],
+          [
+            1018.0,
+            572.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1700,
+        "layout_height": 2200
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-03T09:49:06",
+      "page_number": 50,
+      "parent_id": "43a0a23735f1fc052ac47a4f83813823",
+      "file_directory": "data",
+      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "category": "NarrativeText",
+      "element_id": "dffe424b8b8524e3e858e7db597f400f",
+      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_801",
+      "chunk_index": 801
+    },
+    "content": "Anthropometric assessment: \u00a2 % of pregnant women who were weighed at each ANC visit",
+    "content_length": 83
+  },
+  {
+    "rank": 10,
+    "metadata": {
+      "source": "app/data\\Maternal Nutrition Programming Guidance.pdf",
+      "coordinates": {
+        "points": [
+          [
+            406.0,
+            683.0
+          ],
+          [
+            406.0,
+            707.0
+          ],
+          [
+            670.0,
+            707.0
+          ],
+          [
+            670.0,
+            683.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 1700,
+        "layout_height": 2200
+      },
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-03T09:49:06",
+      "page_number": 4,
+      "file_directory": "app/data",
+      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "category": "Title",
+      "element_id": "21c2dc3c398d6e792d7816e81a622375",
+      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_36",
+      "chunk_index": 36
+    },
+    "content": "High-income countries",
+    "content_length": 21
   }
 ]

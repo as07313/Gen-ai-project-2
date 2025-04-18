@@ -1,0 +1,11 @@
+[
+  {
+    "query": "What is the most important aspect of maternal health according to the context given?",
+    "generated_answer": "The most important aspect of maternal health according to the context provided is the reduction in maternal mortality [Source: Document 6, Page 14], [Source: Document 7, Page 16], [Source: Document 9, Page 16].",
+    "reference_answers": "Maternal nutrition is the cornerstone of maternal and child health, and needs special focus and attention to prevent stunting and wasting among children.",
+    "rouge1_f1": 0.0,
+    "rouge2_f1": 0.0,
+    "rougeL_f1": 0.0,
+    "bleu": 0.0045491487595968995
+  }
+]

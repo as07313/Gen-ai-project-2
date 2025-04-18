@@ -2,432 +2,433 @@
   {
     "rank": 1,
     "metadata": {
-      "source": "data\\Maternal Nutrition Programming Guidance.pdf",
+      "source": "data\\nutritional[1] Copy.pdf",
       "coordinates": {
         "points": [
           [
-            859.0,
-            631.0
+            0.0,
+            0.0
           ],
           [
-            859.0,
-            840.0
+            0.0,
+            0.0
           ],
           [
-            1357.0,
-            840.0
+            595.276,
+            0.0
           ],
           [
-            1357.0,
-            631.0
+            595.276,
+            0.0
           ]
         ],
         "system": "PixelSpace",
-        "layout_width": 1700,
-        "layout_height": 2200
+        "layout_width": 595.276,
+        "layout_height": 841.89
       },
-      "filetype": "application/pdf",
+      "file_directory": "data",
+      "filename": "nutritional[1] Copy.pdf",
       "languages": [
         "eng"
       ],
-      "last_modified": "2025-04-03T09:49:06",
-      "page_number": 16,
-      "file_directory": "data",
-      "filename": "Maternal Nutrition Programming Guidance.pdf",
-      "category": "Title",
-      "element_id": "4daf43228fba1e1544c3e0ce501a9832",
-      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_233",
-      "chunk_index": 233
+      "last_modified": "2025-04-18T12:34:20",
+      "page_number": 1,
+      "filetype": "application/pdf",
+      "category": "Header",
+      "element_id": "b5c2273a0f9dd7fbe36a9a13705a2c99",
+      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_0",
+      "chunk_index": 0
     },
-    "content": "___all forms of ~ malnutrition \u2014 in women",
-    "content_length": 41
+    "content": "MATERNAL NUTRITION STRATEGY 2022\u20132027 PAKISTAN",
+    "content_length": 46
   },
   {
     "rank": 2,
     "metadata": {
-      "source": "data\\Maternal Nutrition Programming Guidance.pdf",
+      "source": "data\\nutritional[1] Copy.pdf",
       "coordinates": {
         "points": [
           [
-            161.0,
-            162.0
+            372.7244,
+            693.5726999999999
           ],
           [
-            161.0,
-            323.0
+            372.7244,
+            703.5726999999999
           ],
           [
-            508.0,
-            323.0
+            450.2644,
+            703.5726999999999
           ],
           [
-            508.0,
-            162.0
+            450.2644,
+            693.5726999999999
           ]
         ],
         "system": "PixelSpace",
-        "layout_width": 1700,
-        "layout_height": 2200
+        "layout_width": 595.276,
+        "layout_height": 841.89
       },
-      "filetype": "application/pdf",
+      "file_directory": "data",
+      "filename": "nutritional[1] Copy.pdf",
       "languages": [
         "eng"
       ],
-      "last_modified": "2025-04-03T09:49:06",
-      "page_number": 1,
-      "file_directory": "data",
-      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "last_modified": "2025-04-18T12:34:20",
+      "page_number": 3,
+      "filetype": "application/pdf",
       "category": "Title",
-      "element_id": "ea69e77da395804402bbca3b2a23ae1f",
-      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_0",
-      "chunk_index": 0
+      "element_id": "74e7d559a0165645fedd9e87cb194bb8",
+      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_2",
+      "chunk_index": 2
     },
-    "content": "UNICEF PROGRAMMING GUIDANCE",
-    "content_length": 27
+    "content": "\u00a9UNICEF Pakistan",
+    "content_length": 16
   },
   {
     "rank": 3,
     "metadata": {
-      "source": "data\\Maternal Nutrition Programming Guidance.pdf",
+      "source": "data\\nutritional[1] Copy.pdf",
       "coordinates": {
         "points": [
           [
-            221.0,
-            203.0
+            388.24079999999975,
+            537.2980999999997
           ],
           [
-            221.0,
-            254.0
+            388.24079999999975,
+            569.4980999999996
           ],
           [
-            793.0,
-            254.0
+            430.1364999999998,
+            569.4980999999996
           ],
           [
-            793.0,
-            203.0
+            430.1364999999998,
+            537.2980999999997
           ]
         ],
         "system": "PixelSpace",
-        "layout_width": 1700,
-        "layout_height": 2200
+        "layout_width": 595.276,
+        "layout_height": 841.89
       },
-      "filetype": "application/pdf",
+      "file_directory": "data",
+      "filename": "nutritional[1] Copy.pdf",
       "languages": [
         "eng"
       ],
-      "last_modified": "2025-04-03T09:49:06",
-      "page_number": 9,
-      "file_directory": "data",
-      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "last_modified": "2025-04-18T12:34:20",
+      "page_number": 73,
+      "filetype": "application/pdf",
       "category": "Title",
-      "element_id": "184d235655acdb597122ab12fdd5c42f",
-      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_98",
-      "chunk_index": 98
+      "element_id": "e36afdaeaa926435998ae5ab29af0563",
+      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_1628",
+      "chunk_index": 1628
     },
-    "content": "Overview of the nutritional situation of women",
-    "content_length": 46
+    "content": "Pakistan Demographic and Health Survey (PDHS)",
+    "content_length": 45
   },
   {
     "rank": 4,
     "metadata": {
-      "source": "data\\Maternal Nutrition Programming Guidance.pdf",
+      "source": "data\\nutritional[1] Copy.pdf",
       "coordinates": {
         "points": [
           [
-            406.0,
-            892.0
+            90.0,
+            792.6375
           ],
           [
-            406.0,
-            916.0
+            90.0,
+            801.6375
           ],
           [
-            596.0,
-            916.0
+            102.0483,
+            801.6375
           ],
           [
-            596.0,
-            892.0
+            102.0483,
+            792.6375
           ]
         ],
         "system": "PixelSpace",
-        "layout_width": 1700,
-        "layout_height": 2200
+        "layout_width": 595.276,
+        "layout_height": 841.89
       },
-      "filetype": "application/pdf",
+      "file_directory": "data",
+      "filename": "nutritional[1] Copy.pdf",
       "languages": [
         "eng"
       ],
-      "last_modified": "2025-04-03T09:49:06",
-      "page_number": 4,
-      "file_directory": "data",
-      "filename": "Maternal Nutrition Programming Guidance.pdf",
-      "category": "Title",
-      "element_id": "46c81abead80d073481640629178a5d7",
-      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_39",
-      "chunk_index": 39
+      "last_modified": "2025-04-18T12:34:20",
+      "page_number": 228,
+      "filetype": "application/pdf",
+      "category": "Footer",
+      "element_id": "13ae999b83f471c4178f44441a33dfc4",
+      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_33136",
+      "chunk_index": 33136
     },
-    "content": "Low birthweight",
-    "content_length": 15
+    "content": "228",
+    "content_length": 3
   },
   {
     "rank": 5,
     "metadata": {
-      "source": "data\\Maternal Nutrition Programming Guidance.pdf",
+      "source": "data\\nutritional[1] Copy.pdf",
       "coordinates": {
         "points": [
           [
-            870.0,
-            601.0
+            525.4407999999997,
+            698.4291999999999
           ],
           [
-            870.0,
-            624.0
+            525.4407999999997,
+            742.8901
           ],
           [
-            1348.0,
-            624.0
+            534.4407999999997,
+            742.8901
           ],
           [
-            1348.0,
-            601.0
+            534.4407999999997,
+            698.4291999999999
           ]
         ],
         "system": "PixelSpace",
-        "layout_width": 1700,
-        "layout_height": 2200
+        "layout_width": 595.276,
+        "layout_height": 841.89
       },
-      "filetype": "application/pdf",
+      "file_directory": "data",
+      "filename": "nutritional[1] Copy.pdf",
       "languages": [
         "eng"
       ],
-      "last_modified": "2025-04-03T09:49:06",
-      "page_number": 12,
-      "file_directory": "data",
-      "filename": "Maternal Nutrition Programming Guidance.pdf",
-      "category": "Title",
-      "element_id": "eb7bc81cdc025c36331e101516bc49e8",
-      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_173",
-      "chunk_index": 173
+      "last_modified": "2025-04-18T12:34:20",
+      "page_number": 228,
+      "parent_id": "0bd8bcc2c89292479e17525829cc5ca0",
+      "filetype": "application/pdf",
+      "category": "NarrativeText",
+      "element_id": "41cd39d0a92fbb8b6e55609fbfa30f30",
+      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_33135",
+      "chunk_index": 33135
     },
-    "content": "Causes of poor nutrition in women",
-    "content_length": 33
+    "content": "s m s i n a h c e m",
+    "content_length": 19
   },
   {
     "rank": 6,
     "metadata": {
-      "source": "data\\Maternal Nutrition Programming Guidance.pdf",
+      "source": "data\\nutritional[1] Copy.pdf",
       "coordinates": {
         "points": [
           [
-            407.0,
-            823.0
+            193.05249999999998,
+            670.3967000000005
           ],
           [
-            407.0,
-            843.0
+            193.05249999999998,
+            689.0967000000005
           ],
           [
-            608.0,
-            843.0
+            486.9570000000003,
+            689.0967000000005
           ],
           [
-            608.0,
-            823.0
+            486.9570000000003,
+            670.3967000000005
           ]
         ],
         "system": "PixelSpace",
-        "layout_width": 1700,
-        "layout_height": 2200
+        "layout_width": 595.276,
+        "layout_height": 841.89
       },
-      "filetype": "application/pdf",
+      "file_directory": "data",
+      "filename": "nutritional[1] Copy.pdf",
       "languages": [
         "eng"
       ],
-      "last_modified": "2025-04-03T09:49:06",
-      "page_number": 4,
-      "file_directory": "data",
-      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "last_modified": "2025-04-18T12:34:20",
+      "page_number": 29,
+      "filetype": "application/pdf",
       "category": "Title",
-      "element_id": "c074434e0cc19f09ba2d25291960f77b",
-      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_38",
-      "chunk_index": 38
+      "element_id": "162fbed81918ab69f77398f573780cf6",
+      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_746",
+      "chunk_index": 746
     },
-    "content": "Iron and folic acid",
-    "content_length": 19
+    "content": "(especially in Balochistan, Khyber Pakhtunkhwa, Azad Jammu and Kashmir, and Gilgit- Baltistan)",
+    "content_length": 94
   },
   {
     "rank": 7,
     "metadata": {
-      "source": "data\\Maternal Nutrition Programming Guidance.pdf",
+      "source": "data\\nutritional[1] Copy.pdf",
       "coordinates": {
         "points": [
           [
-            205.0,
-            378.0
+            514.4427999999997,
+            722.6437
           ],
           [
-            205.0,
-            402.0
+            514.4427999999997,
+            742.8901
           ],
           [
-            725.0,
-            402.0
+            523.4427999999997,
+            742.8901
           ],
           [
-            725.0,
-            378.0
+            523.4427999999997,
+            722.6437
           ]
         ],
         "system": "PixelSpace",
-        "layout_width": 1700,
-        "layout_height": 2200
+        "layout_width": 595.276,
+        "layout_height": 841.89
       },
-      "filetype": "application/pdf",
+      "file_directory": "data",
+      "filename": "nutritional[1] Copy.pdf",
       "languages": [
         "eng"
       ],
-      "last_modified": "2025-04-03T09:49:06",
-      "page_number": 42,
-      "file_directory": "data",
-      "filename": "Maternal Nutrition Programming Guidance.pdf",
-      "category": "Title",
-      "element_id": "8ce0fe3c5e65dd4845f05eacf2cfe93e",
-      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_630",
-      "chunk_index": 630
+      "last_modified": "2025-04-18T12:34:20",
+      "page_number": 228,
+      "parent_id": "0bd8bcc2c89292479e17525829cc5ca0",
+      "filetype": "application/pdf",
+      "category": "NarrativeText",
+      "element_id": "abbec8f6138b276c0cc44fcfe4e470c8",
+      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_33134",
+      "chunk_index": 33134
     },
-    "content": "Analyse the nutrition situation of women",
-    "content_length": 40
+    "content": "b a t s e",
+    "content_length": 9
   },
   {
     "rank": 8,
     "metadata": {
-      "source": "data\\Maternal Nutrition Programming Guidance.pdf",
+      "source": "data\\nutritional[1] Copy.pdf",
       "coordinates": {
         "points": [
           [
-            406.0,
-            753.0
+            278.2103,
+            607.9950375
           ],
           [
-            406.0,
-            777.0
+            278.2103,
+            641.9884374999999
           ],
           [
-            877.0,
-            777.0
+            319.44932750000004,
+            641.9884374999999
           ],
           [
-            877.0,
-            753.0
+            319.44932750000004,
+            607.9950375
           ]
         ],
         "system": "PixelSpace",
-        "layout_width": 1700,
-        "layout_height": 2200
+        "layout_width": 595.276,
+        "layout_height": 841.89
       },
-      "filetype": "application/pdf",
+      "file_directory": "data",
+      "filename": "nutritional[1] Copy.pdf",
       "languages": [
         "eng"
       ],
-      "last_modified": "2025-04-03T09:49:06",
-      "page_number": 4,
-      "file_directory": "data",
-      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "last_modified": "2025-04-18T12:34:20",
+      "page_number": 22,
+      "filetype": "application/pdf",
       "category": "Title",
-      "element_id": "6e5bf4729da390e990731c546a698812",
-      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_37",
-      "chunk_index": 37
+      "element_id": "661978756d686984d0305036dce6ea8d",
+      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_589",
+      "chunk_index": 589
     },
-    "content": "Health management information system",
-    "content_length": 36
+    "content": "KP Balochistan ICT",
+    "content_length": 18
   },
   {
     "rank": 9,
     "metadata": {
-      "source": "data\\Maternal Nutrition Programming Guidance.pdf",
+      "source": "data\\nutritional[1] Copy.pdf",
       "coordinates": {
         "points": [
           [
-            862.0,
-            672.0
+            107.9865,
+            531.8116999999999
           ],
           [
-            862.0,
-            1021.0
+            107.9865,
+            542.6791999999998
           ],
           [
-            1463.0,
-            1021.0
+            466.18664999999936,
+            542.6791999999998
           ],
           [
-            1463.0,
-            672.0
+            466.18664999999936,
+            531.8116999999999
           ]
         ],
         "system": "PixelSpace",
-        "layout_width": 1700,
-        "layout_height": 2200
+        "layout_width": 595.276,
+        "layout_height": 841.89
       },
-      "filetype": "application/pdf",
+      "file_directory": "data",
+      "filename": "nutritional[1] Copy.pdf",
       "languages": [
         "eng"
       ],
-      "last_modified": "2025-04-03T09:49:06",
-      "page_number": 12,
-      "parent_id": "eb7bc81cdc025c36331e101516bc49e8",
-      "file_directory": "data",
-      "filename": "Maternal Nutrition Programming Guidance.pdf",
-      "category": "NarrativeText",
-      "element_id": "e42db49df19551c8764625578edb6d82",
-      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_174",
-      "chunk_index": 174
+      "last_modified": "2025-04-18T12:34:20",
+      "page_number": 28,
+      "filetype": "application/pdf",
+      "category": "Title",
+      "element_id": "8d26abb7a3c6ce6dd997e7269953fcc2",
+      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_705",
+      "chunk_index": 705
     },
-    "content": "At all stages of life, malnutrition in women is the result of poor-quality diets, poor services, poor practices and a weak enabling environment. Women's access to diets and care are constrained by several factors, including limited availability of and access to nutritious, safe and affordable foods; limited opportunities for women to access nutrition services; limited knowledge of the importance of preconception nutrition care; and harmful gendered social norms and social and cultural practices.",
-    "content_length": 500
+    "content": "Sindh: Accelerated Action Plan (AAP) for the Reduction of Stunting and Malnutrition.",
+    "content_length": 84
   },
   {
     "rank": 10,
     "metadata": {
-      "source": "data\\Maternal Nutrition Programming Guidance.pdf",
+      "source": "data\\nutritional[1] Copy.pdf",
       "coordinates": {
         "points": [
           [
-            406.0,
-            683.0
+            514.4427999999997,
+            690.0142
           ],
           [
-            406.0,
-            707.0
+            514.4427999999997,
+            691.9671999999999
           ],
           [
-            670.0,
-            707.0
+            523.4427999999997,
+            691.9671999999999
           ],
           [
-            670.0,
-            683.0
+            523.4427999999997,
+            690.0142
           ]
         ],
         "system": "PixelSpace",
-        "layout_width": 1700,
-        "layout_height": 2200
+        "layout_width": 595.276,
+        "layout_height": 841.89
       },
-      "filetype": "application/pdf",
+      "file_directory": "data",
+      "filename": "nutritional[1] Copy.pdf",
       "languages": [
         "eng"
       ],
-      "last_modified": "2025-04-03T09:49:06",
-      "page_number": 4,
-      "file_directory": "data",
-      "filename": "Maternal Nutrition Programming Guidance.pdf",
+      "last_modified": "2025-04-18T12:34:20",
+      "page_number": 228,
+      "filetype": "application/pdf",
       "category": "Title",
-      "element_id": "21c2dc3c398d6e792d7816e81a622375",
-      "persistent_chunk_id": "Maternal Nutrition Programming Guidance.pdf_chunk_36",
-      "chunk_index": 36
+      "element_id": "0bd8bcc2c89292479e17525829cc5ca0",
+      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_33133",
+      "chunk_index": 33133
     },
-    "content": "High-income countries",
-    "content_length": 21
+    "content": "i",
+    "content_length": 1
   }
 ]

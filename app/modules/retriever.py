@@ -54,81 +54,111 @@ def load_vector_store(index_path="embeddings/faiss_index"):
 
 
 
-def retrieve_documents(query, vector_store, documents: List[Document], top_k=5, rrf_k=60):
+def retrieve_documents(query: str, vector_store: FAISS, documents: List[Document], top_k: int = 5, rrf_k: int = 60, semantic_weight: float = 0.5) -> List[Document]:
     """
     Retrieve relevant documents based on a query, combining vector store and BM25 retrieval using RRF.
 
     Args:
         query (str): The user's query.
         vector_store (FAISS): FAISS vector store object.
-        documents (List[Document]): List of all documents.
-        top_k (int): Number of top documents to retrieve.
+        documents (List[Document]): List of all documents corresponding to the vector store for BM25.
+        top_k (int): Number of top documents to retrieve from each method before fusion.
         rrf_k (int): RRF constant to dampen lower-ranked documents.
+        semantic_weight (float): Weight assigned to semantic search (0.0 to 1.0). Keyword weight is (1 - semantic_weight).
 
     Returns:
-        list: List of relevant Document objects.
+        list: List of relevant Document objects after RRF.
     """
-    print(f"Retrieving documents for query: {query}")
-    
-    # Vector store retrieval
-    embeddings = vector_store.embeddings
-    vector_store_docs = vector_store.similarity_search(query, k=top_k)
-    print(f"Retrieved {len(vector_store_docs)} documents from vector store (semantic search)")
-    for idx, doc in enumerate(vector_store_docs):
-        print(f"  [Semantic Rank {idx+1}] Doc id={id(doc)} | Page={doc.metadata.get('page', 'unknown')} | Source={doc.metadata.get('source', 'unknown')[:40]}...")
+    print(f"Retrieving documents for query: {query} (Top K={top_k}, Semantic Weight={semantic_weight})")
 
-    # BM25 retrieval
-    print("Performing BM25 retrieval (keyword search)")
-    corpus = [doc.page_content for doc in documents]
-    bm25 = BM25Okapi(corpus)
-    tokenized_query = query.split(" ")
-    bm25_docs = bm25.get_top_n(tokenized_query, documents, n=top_k)
-    print(f"Retrieved {len(bm25_docs)} documents from BM25")
-    for idx, doc in enumerate(bm25_docs):
-        print(f"  [BM25 Rank {idx+1}] Doc id={id(doc)} | Page={doc.metadata.get('page', 'unknown')} | Source={doc.metadata.get('source', 'unknown')[:40]}...")
+    # Ensure weight is within bounds
+    semantic_weight = max(0.0, min(1.0, semantic_weight))
+    keyword_weight = 1.0 - semantic_weight
 
-    # Assign ranks
+    # --- Vector store retrieval ---
+    vector_store_docs = []
+    if semantic_weight > 0: # Only run if weight is > 0
+        vector_store_docs = vector_store.similarity_search(query, k=top_k)
+        print(f"Retrieved {len(vector_store_docs)} documents from vector store (semantic search)")
+        # ... (optional logging) ...
+
+    # --- BM25 retrieval ---
+    bm25_docs = []
+    if keyword_weight > 0: # Only run if weight is > 0
+        print("Performing BM25 retrieval (keyword search)")
+        corpus = [doc.page_content for doc in documents]
+        if not corpus:
+             print("Warning: BM25 corpus is empty. Skipping keyword search.")
+        else:
+            try:
+                bm25 = BM25Okapi(corpus)
+                tokenized_query = query.split(" ")
+                bm25_docs = bm25.get_top_n(tokenized_query, documents, n=top_k)
+                print(f"Retrieved {len(bm25_docs)} documents from BM25")
+
+            except Exception as e:
+                print(f"Error during BM25 retrieval: {e}. Skipping keyword search.")
+
+    # --- Assign ranks and prepare for RRF ---
     doc_id_to_doc = {}
-    rankings = []
-
-    # Vector store rankings
     vs_ranking = {}
     for rank, doc in enumerate(vector_store_docs):
-        doc_id = id(doc)
-        vs_ranking[doc_id] = rank + 1  # ranks start from 1
+        # Use persistent_chunk_id if available, otherwise fallback to id()
+        doc_id = doc.metadata.get("persistent_chunk_id", id(doc))
+        vs_ranking[doc_id] = rank + 1
         doc_id_to_doc[doc_id] = doc
-    rankings.append(vs_ranking)
 
-
-
-    # BM25 rankings
     bm25_ranking = {}
     for rank, doc in enumerate(bm25_docs):
-        doc_id = id(doc)
+        doc_id = doc.metadata.get("persistent_chunk_id", id(doc))
         bm25_ranking[doc_id] = rank + 1
-        doc_id_to_doc[doc_id] = doc
-    rankings.append(bm25_ranking)
+        doc_id_to_doc[doc_id] = doc # Add BM25 docs that might not be in VS results
 
-    # Apply RRF (50% semantic, 50% keyword)
-    print("Applying Reciprocal Rank Fusion (50% semantic, 50% keyword)")
+    # --- Apply RRF ---
+    print(f"Applying Reciprocal Rank Fusion (Semantic Weight={semantic_weight}, Keyword Weight={keyword_weight})")
     rrf_scores = defaultdict(float)
-    for doc_id in doc_id_to_doc:
-        vs_rank = vs_ranking.get(doc_id, top_k + 1)
-        bm25_rank = bm25_ranking.get(doc_id, top_k + 1)
-        # 50% weight to each
-        rrf_scores[doc_id] = 0.5 * (1 / (rrf_k + vs_rank)) + 0.5 * (1 / (rrf_k + bm25_rank))
-        print(f"  Doc id={doc_id} | Semantic rank={vs_rank} | BM25 rank={bm25_rank} | RRF score={rrf_scores[doc_id]:.6f}")
+    all_doc_ids = set(vs_ranking.keys()) | set(bm25_ranking.keys()) # Combine all unique doc IDs
+
+    if not all_doc_ids:
+        print("No documents found by either retrieval method.")
+        return []
+
+    for doc_id in all_doc_ids:
+        # Penalize if not found, use a rank worse than max possible (e.g., top_k * 2 or just a large number)
+        vs_rank = vs_ranking.get(doc_id, top_k * 2)
+        bm25_rank = bm25_ranking.get(doc_id, top_k * 2)
+
+        # Calculate weighted RRF score
+        score = 0.0
+        if semantic_weight > 0:
+            score += semantic_weight * (1 / (rrf_k + vs_rank))
+        if keyword_weight > 0:
+            score += keyword_weight * (1 / (rrf_k + bm25_rank))
+
+        rrf_scores[doc_id] = score
+        # print(f"  Doc id={doc_id} | Semantic rank={vs_rank} | BM25 rank={bm25_rank} | RRF score={rrf_scores[doc_id]:.6f}") # Optional detailed log
 
     # Sort documents by RRF score
-    sorted_doc_ids = sorted(rrf_scores.items(), key=lambda x: x[1], reverse=True)
+    # Ensure doc_id exists in doc_id_to_doc before accessing
+    sorted_doc_ids = sorted(
+        [(doc_id, score) for doc_id, score in rrf_scores.items() if doc_id in doc_id_to_doc],
+        key=lambda x: x[1],
+        reverse=True
+    )
+
+    # Return the top_k documents overall after fusion
     combined_docs = [doc_id_to_doc[doc_id] for doc_id, _ in sorted_doc_ids[:top_k]]
 
     print("Top documents after fusion:")
+    # Use the sorted list with scores for logging
     for i, (doc_id, score) in enumerate(sorted_doc_ids[:top_k]):
         doc = doc_id_to_doc[doc_id]
-        print(f"  [Final Rank {i+1}] Doc id={doc_id} | RRF score={score:.6f} | Page={doc.metadata.get('page_number', 'unknown')} | Source={doc.metadata.get('source', 'unknown')[:40]}...")
+        # Check for 'page_number' first, then 'page'
+        page_info = doc.metadata.get('page_number', doc.metadata.get('page', 'unknown'))
+        print(f"  [Final Rank {i+1}] Doc id={doc_id} | RRF score={score:.6f} | Page={page_info} | Source={doc.metadata.get('source', 'unknown')[:40]}...")
 
-    # Log retrieval results to a file
+    # Log retrieval results to a file (ensure path is correct)
+    debug_retrieval_path = os.path.join(os.path.dirname(__file__), "..", "debug_retrieval.json") # Save in app/
     retrieval_results = []
     for i, doc in enumerate(combined_docs):
         retrieval_results.append({
@@ -137,8 +167,11 @@ def retrieve_documents(query, vector_store, documents: List[Document], top_k=5, 
             "content": doc.page_content,
             "content_length": len(doc.page_content)
         })
-    
-    with open("debug_retrieval.json", "w") as f:
-        json.dump(retrieval_results, f, indent=2)
-    
+
+    try:
+        with open(debug_retrieval_path, "w") as f:
+            json.dump(retrieval_results, f, indent=2)
+    except Exception as debug_e:
+        print(f"Warning: Could not write debug_retrieval.json: {debug_e}")
+
     return combined_docs

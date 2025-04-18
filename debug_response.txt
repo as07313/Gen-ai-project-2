@@ -1,5 +1,5 @@
 QUERY:
-what is attention layer?
+What is the MUAC threshold used to assess underweight status in pregnant women?
 
 RESPONSE:
-An attention layer is a component in a neural network model, particularly in the context of transformer models, that allows the model to focus on different parts of the input sequence when making predictions or generating output. It involves mapping a query with key-value pairs to produce an output, enabling the model to learn relationships and dependencies between different parts of the input data. Attention layers are used in various ways within transformer architectures, such as encoder-decoder attention and multi-head attention.
+The MUAC threshold used to assess underweight status in pregnant women is <23 cm [Source: Document 3, Page 31].
