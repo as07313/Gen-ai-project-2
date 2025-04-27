@@ -2,20 +2,34 @@ import os
 import streamlit as st
 from modules.loader import load_documents
 from modules.splitter import split_documents
-# Make sure retrieve_documents handles semantic_weight=1.0 correctly for Naive RAG
 from modules.retriever import create_vector_store, load_vector_store, retrieve_documents
 from modules.generator import generate_response
-# Import the reranker function
 from modules.reranker import rerank_documents
+from modules.guadrails import Guadrails
+
 from dotenv import load_dotenv
+
 import glob
-from langchain_core.documents import Document # Import Document type
-import collections # Import collections for download button logic
-import pickle # For persisted chunks
+from langchain_core.documents import Document
+import collections 
+import pickle 
 
 os.environ["STREAMLIT_SERVER_WATCH_MODULES"] = "false"
 
 load_dotenv()
+
+# initialize the Azure Content Safety guadrails 
+azure_content_safety_key = os.getenv("AZURE_CONTENT_SAFETY_KEY")
+azure_content_safety_endpoint = os.getenv("AZURE_CONTENT_SAFETY_ENDPOINT")
+
+
+if azure_content_safety_key and azure_content_safety_endpoint:
+    st.session_state.guadrails = Guadrails(api_key=azure_content_safety_key, endpoint=azure_content_safety_endpoint)
+    guadrails_enabled = True
+else:
+    guadrails_enabled = False
+    st.warning("Guadrails not initialized. Please set AZURE_CONTENT_SAFETY_KEY and AZURE_CONTENT_SAFETY_ENDPOINT in your .env file.")
+
 
 # Ensure the data and embeddings directories exist relative to app.py
 APP_DIR = os.path.dirname(__file__)
@@ -51,6 +65,7 @@ if "rerank_top_n" not in st.session_state:
 st.title("Maternal Health Assistant")
 st.markdown("Ask questions about maternal health based on our comprehensive resource collection.")
 
+
 # Function to load all PDFs from the data directory
 def load_corpus():
     with st.spinner("Loading maternal health corpus... This may take a few minutes."):
@@ -73,7 +88,6 @@ def load_corpus():
             chunks = None
 
             # --- Load/Create Vector Store & Chunks ---
-# ... inside load_corpus loop ...
             if os.path.exists(index_path):
                 vector_store = load_vector_store(index_path)
                 # Try loading persisted chunks first
@@ -113,14 +127,33 @@ def load_corpus():
 
             st.session_state.vector_stores[filename] = vector_store
             progress_bar.progress((i + 1) / len(corpus_files))
-# ... rest of load_corpus ...
-        # --- End Loop ---
 
         st.success("Corpus loading complete!")
         return True
 
 # Sidebar for settings and controls
 with st.sidebar:
+
+    st.subheader("Content Safety Settings")
+    if guadrails_enabled:
+        st.success("Azure Content Safety guardrails are active")
+        
+        # Add a safety threshold slider
+        if "guardrail_severity" not in st.session_state:
+            st.session_state.guardrail_severity = 4  # Default moderate protection
+        
+        # st.session_state.guardrail_severity = st.slider(
+        #     "Safety threshold (1-10)",
+        #     min_value=1, max_value=10, value=st.session_state.guardrail_severity,
+        #     help="Lower values provide stricter protection. Default is 4 (moderate)."
+        # )
+        
+        # Update the severity threshold in the Guadrails class
+        st.session_state.guadrails.update_severity_threshold(st.session_state.guardrail_severity)
+    else:
+        st.warning("Content safety guardrails are disabled")
+        st.info("Add Azure credentials to your .env file to enable protection")
+
     st.header("Setup & Settings")
     # Load corpus button
     if not st.session_state.corpus_loaded:
@@ -195,6 +228,20 @@ if submit_button and query and not st.session_state.query_processed:
         st.warning("Please load the maternal health corpus first...")
         st.session_state.query_processed = False
     else:
+        # --- Query Validation with Guadrails ---
+        if guadrails_enabled:
+            with st.spinner("Checking query safety..."):
+                is_safe, validation_message = st.session_state.guadrails.check_input_query(query)
+                if not is_safe:
+                    st.warning(validation_message)
+                    st.session_state.query_processed = False
+                    st.session_state.query = ""
+                    st.stop()
+
+                query = validation_message # Use the validated query
+        else:
+            st.info("Guadrails not initialized. Running without content safety checks.")
+
         retrieved_docs = []
         ranking_method = st.session_state.selected_rag_mode # Use selected mode as method name
 
@@ -202,6 +249,7 @@ if submit_button and query and not st.session_state.query_processed:
             # --- Retrieval Logic based on Mode ---
             initial_retrieved_docs = [] # Docs before potential reranking
 
+            # Retrieve documents based on selected mode
             if st.session_state.selected_rag_mode == "Naive RAG (Semantic Only)" or st.session_state.selected_rag_mode == "Naive RAG + Rerank (Cohere)":
                 # Both start with semantic search
                 temp_retrieved = []
@@ -214,7 +262,7 @@ if submit_button and query and not st.session_state.query_processed:
                     if doc.page_content not in seen_content:
                         initial_retrieved_docs.append(doc)
                         seen_content.add(doc.page_content)
-                # Limit initial semantic results if needed, though reranker might benefit from more
+
                 initial_retrieved_docs = initial_retrieved_docs[:top_k * len(st.session_state.vector_stores)] # Allow more initially for reranker
 
             elif st.session_state.selected_rag_mode == "Hybrid RAG (RRF)":
@@ -223,48 +271,68 @@ if submit_button and query and not st.session_state.query_processed:
                     doc_chunks = st.session_state.all_documents.get(filename, [])
                     if not doc_chunks: continue
                     # Call retrieve_documents with the selected semantic weight
-                    # Ensure retrieve_documents returns top_k results after fusion
                     rrf_docs = retrieve_documents(
                         query,
                         vector_store,
                         documents=doc_chunks,
-                        top_k=top_k, # Retrieve top_k after fusion
+                        top_k=top_k, 
                         semantic_weight=st.session_state.semantic_weight
                     )
                     temp_retrieved.extend(rrf_docs)
-                # Deduplicate results from RRF across files (using persistent ID if available)
+                # Deduplicate results from RRF across files
                 seen_ids = set()
                 for doc in temp_retrieved:
                     doc_id = doc.metadata.get("persistent_chunk_id", doc.page_content)
                     if doc_id not in seen_ids:
                         initial_retrieved_docs.append(doc)
                         seen_ids.add(doc_id)
-                # RRF retriever already limits to top_k, deduplication is secondary here
-                initial_retrieved_docs = initial_retrieved_docs[:top_k] # Ensure final limit
+                initial_retrieved_docs = initial_retrieved_docs[:top_k]
 
-
-            # --- Optional Reranking Step ---
-            if st.session_state.selected_rag_mode == "Naive RAG + Rerank (Cohere)":
-                if not initial_retrieved_docs:
-                     st.warning("No documents found by initial semantic search to rerank.")
-                     retrieved_docs = []
-                else:
-                     with st.spinner("Reranking retrieved documents with Cohere..."):
-                          # Use the rerank_top_n value from the slider
-                          retrieved_docs = rerank_documents(query, initial_retrieved_docs, top_n=st.session_state.rerank_top_n)
+            # --- Apply Guardrails to Retrieved Documents ---
+            if guadrails_enabled and initial_retrieved_docs:
+                with st.spinner("Checking content safety..."):
+                    safe_docs = st.session_state.guadrails.check_retrieved_documents(initial_retrieved_docs)
+                    if not safe_docs:
+                        st.warning("Retrieved documents contain potentially inappropriate content. Please try a different query.")
+                        retrieved_docs = []
+                    else:
+                        # Continue with the safe documents for reranking or final use
+                        if st.session_state.selected_rag_mode == "Naive RAG + Rerank (Cohere)":
+                            with st.spinner("Reranking retrieved documents with Cohere..."):
+                                retrieved_docs = rerank_documents(query, safe_docs, top_n=st.session_state.rerank_top_n)
+                        else:
+                            retrieved_docs = safe_docs[:top_k]
             else:
-                 # For Naive RAG and Hybrid RAG, the initially retrieved docs are the final ones
-                 retrieved_docs = initial_retrieved_docs[:top_k] # Apply final limit if not reranking
-
+                # Continue without guardrails
+                if st.session_state.selected_rag_mode == "Naive RAG + Rerank (Cohere)":
+                    if not initial_retrieved_docs:
+                        st.warning("No documents found by initial semantic search to rerank.")
+                        retrieved_docs = []
+                    else:
+                        with st.spinner("Reranking retrieved documents with Cohere..."):
+                            retrieved_docs = rerank_documents(query, initial_retrieved_docs, top_n=st.session_state.rerank_top_n)
+                else:
+                    # For Naive RAG and Hybrid RAG, the initially retrieved docs are the final ones
+                    retrieved_docs = initial_retrieved_docs[:top_k] # Ensure we limit to top_k for final output
 
             # --- Generation ---
             if not retrieved_docs:
-                 st.warning("Could not retrieve relevant documents for your query.")
-                 response_text = "Sorry, I couldn't find relevant information for your query."
-                 source_docs_used = []
+                st.warning("Could not retrieve relevant documents for your query.")
+                response_text = "Sorry, I couldn't find relevant information for your query."
+                source_docs_used = []
             else:
-                 # Ensure generate_response returns tuple: (text, docs_used)
-                 response_text, source_docs_used = generate_response(query, retrieved_docs)
+                # Generate response
+                response_text, source_docs_used = generate_response(query, retrieved_docs)
+                
+                # --- Apply Guardrails to Generated Response ---
+                if guadrails_enabled:
+                    with st.spinner("Verifying response safety..."):
+                        is_safe, safe_response = st.session_state.guadrails.check_output_safety(response_text)
+                        if not is_safe:
+                            st.warning("Generated response was flagged by content safety. Using a safer alternative.")
+                            response_text = safe_response
+                            # Don't show sources for unsafe responses
+                            source_docs_used = []
 
             # Add to chat history
             st.session_state.chat_history.append((st.session_state.query, response_text, ranking_method, source_docs_used))
@@ -279,7 +347,6 @@ elif not query:
 
 # Display chat history
 st.subheader("Conversation History")
-# ... (Rest of the chat history display logic remains the same as previous correct version) ...
 if not st.session_state.chat_history:
     st.info("Ask a question about maternal health to get started.")
 else:

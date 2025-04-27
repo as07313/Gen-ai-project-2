@@ -103,7 +103,7 @@ def retrieve_documents(query: str, vector_store: FAISS, documents: List[Document
     doc_id_to_doc = {}
     vs_ranking = {}
     for rank, doc in enumerate(vector_store_docs):
-        # Use persistent_chunk_id if available, otherwise fallback to id()
+
         doc_id = doc.metadata.get("persistent_chunk_id", id(doc))
         vs_ranking[doc_id] = rank + 1
         doc_id_to_doc[doc_id] = doc
@@ -124,7 +124,7 @@ def retrieve_documents(query: str, vector_store: FAISS, documents: List[Document
         return []
 
     for doc_id in all_doc_ids:
-        # Penalize if not found, use a rank worse than max possible (e.g., top_k * 2 or just a large number)
+
         vs_rank = vs_ranking.get(doc_id, top_k * 2)
         bm25_rank = bm25_ranking.get(doc_id, top_k * 2)
 
@@ -136,10 +136,8 @@ def retrieve_documents(query: str, vector_store: FAISS, documents: List[Document
             score += keyword_weight * (1 / (rrf_k + bm25_rank))
 
         rrf_scores[doc_id] = score
-        # print(f"  Doc id={doc_id} | Semantic rank={vs_rank} | BM25 rank={bm25_rank} | RRF score={rrf_scores[doc_id]:.6f}") # Optional detailed log
 
     # Sort documents by RRF score
-    # Ensure doc_id exists in doc_id_to_doc before accessing
     sorted_doc_ids = sorted(
         [(doc_id, score) for doc_id, score in rrf_scores.items() if doc_id in doc_id_to_doc],
         key=lambda x: x[1],
@@ -157,7 +155,6 @@ def retrieve_documents(query: str, vector_store: FAISS, documents: List[Document
         page_info = doc.metadata.get('page_number', doc.metadata.get('page', 'unknown'))
         print(f"  [Final Rank {i+1}] Doc id={doc_id} | RRF score={score:.6f} | Page={page_info} | Source={doc.metadata.get('source', 'unknown')[:40]}...")
 
-    # Log retrieval results to a file (ensure path is correct)
     debug_retrieval_path = os.path.join(os.path.dirname(__file__), "..", "debug_retrieval.json") # Save in app/
     retrieval_results = []
     for i, doc in enumerate(combined_docs):

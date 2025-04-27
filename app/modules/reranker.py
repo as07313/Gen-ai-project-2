@@ -34,7 +34,7 @@ def rerank_documents(query: str, documents: List[Document], top_n: int = 5) -> L
         # Extract document texts and their indices
         doc_texts = [doc.page_content for doc in documents]
         
-        # Call Cohere's rerank API with model optimized for health information
+        # Cohere's rerank API with model optimized for health information
         rerank_results = co.rerank(
             query=query,
             documents=doc_texts,

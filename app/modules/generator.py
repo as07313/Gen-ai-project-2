@@ -81,7 +81,7 @@ def generate_response(query, documents):
              print(f"Warning: Could not write debug_response.txt: {debug_e}")
 
         # Return both the response and the documents used
-        return response, documents # Return tuple
+        return response, documents
 
     except Exception as e:
         error_msg = f"Error generating response: {str(e)}"

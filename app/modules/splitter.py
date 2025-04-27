@@ -14,22 +14,22 @@ def split_documents(documents, chunk_size=1000, chunk_overlap=100):
     Returns:
         list: List of split Document objects.
     """
-    print(f"Original document count: {len(documents)}")
-    print(f"Sample document metadata: {documents[0].metadata}")
-    print(f"Sample document content first 100 chars: {documents[0].page_content[:100]}...")
+    # print(f"Original document count: {len(documents)}")
+    # print(f"Sample document metadata: {documents[0].metadata}")
+    # print(f"Sample document content first 100 chars: {documents[0].page_content[:100]}...")
     
     splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
     chunks = splitter.split_documents(documents)
     
-    print(f"Total chunks after splitting: {len(chunks)}")
-    print(f"Sample chunk metadata: {chunks[0].metadata}")
-    print(f"Sample chunk content: {chunks[0].page_content}")
+    # print(f"Total chunks after splitting: {len(chunks)}")
+    # print(f"Sample chunk metadata: {chunks[0].metadata}")
+    # print(f"Sample chunk content: {chunks[0].page_content}")
 
 
     source_filename = os.path.basename(documents[0].metadata.get("source", "unknown_source"))
     for i, chunk in enumerate(chunks):
         chunk.metadata["persistent_chunk_id"] = f"{source_filename}_chunk_{i}"
-        chunk.metadata["chunk_index"] = i # Add index if not already present reliably
+        chunk.metadata["chunk_index"] = i 
 
 
     

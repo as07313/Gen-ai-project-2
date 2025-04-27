@@ -6,20 +6,20 @@
       "coordinates": {
         "points": [
           [
-            99.0,
-            135.51469999999995
+            191.62800000000016,
+            446.3746999999999
           ],
           [
-            99.0,
-            155.3146999999999
+            191.62800000000016,
+            455.4196999999999
           ],
           [
-            172.37789999999995,
-            155.3146999999999
+            268.7778000000002,
+            455.4196999999999
           ],
           [
-            172.37789999999995,
-            135.51469999999995
+            268.7778000000002,
+            446.3746999999999
           ]
         ],
         "system": "PixelSpace",
@@ -35,12 +35,12 @@
       "page_number": 12,
       "filetype": "application/pdf",
       "category": "Title",
-      "element_id": "1c923e9b2d196e3d0264db04edd5b490",
-      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_248",
-      "chunk_index": 248
+      "element_id": "223d609bccb24e545041d4b368114da3",
+      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_267",
+      "chunk_index": 267
     },
-    "content": "Aspect of maternal malnutrition",
-    "content_length": 31
+    "content": "\u0083 Maternal mortality",
+    "content_length": 20
   },
   {
     "rank": 2,
@@ -49,20 +49,20 @@
       "coordinates": {
         "points": [
           [
-            0.0,
-            0.0
+            212.91299999999987,
+            322.47309999999993
           ],
           [
-            0.0,
-            0.0
+            212.91299999999987,
+            324.80409999999995
           ],
           [
-            595.276,
-            0.0
+            221.91299999999987,
+            324.80409999999995
           ],
           [
-            595.276,
-            0.0
+            221.91299999999987,
+            322.47309999999993
           ]
         ],
         "system": "PixelSpace",
@@ -75,15 +75,15 @@
         "eng"
       ],
       "last_modified": "2025-04-18T12:34:20",
-      "page_number": 1,
+      "page_number": 163,
       "filetype": "application/pdf",
-      "category": "Header",
-      "element_id": "b5c2273a0f9dd7fbe36a9a13705a2c99",
-      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_0",
-      "chunk_index": 0
+      "category": "Title",
+      "element_id": "1e7fdee3dc95a8a873b5e3d6f601e29e",
+      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_18864",
+      "chunk_index": 18864
     },
-    "content": "MATERNAL NUTRITION STRATEGY 2022\u20132027 PAKISTAN",
-    "content_length": 46
+    "content": "I",
+    "content_length": 1
   },
   {
     "rank": 3,
@@ -92,20 +92,20 @@
       "coordinates": {
         "points": [
           [
-            90.0,
-            792.6375
+            161.99849999999998,
+            523.2155000000004
           ],
           [
-            90.0,
-            801.6375
+            161.99849999999998,
+            533.7155000000004
           ],
           [
-            102.0483,
-            801.6375
+            221.51564999999997,
+            533.7155000000004
           ],
           [
-            102.0483,
-            792.6375
+            221.51564999999997,
+            523.2155000000004
           ]
         ],
         "system": "PixelSpace",
@@ -118,15 +118,15 @@
         "eng"
       ],
       "last_modified": "2025-04-18T12:34:20",
-      "page_number": 228,
+      "page_number": 8,
       "filetype": "application/pdf",
-      "category": "Footer",
-      "element_id": "13ae999b83f471c4178f44441a33dfc4",
-      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_33136",
-      "chunk_index": 33136
+      "category": "Title",
+      "element_id": "4b8f7437ed538d3204b1aaa63f8bf74e",
+      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_174",
+      "chunk_index": 174
     },
-    "content": "228",
-    "content_length": 3
+    "content": "Postnatal care",
+    "content_length": 14
   },
   {
     "rank": 4,
@@ -135,20 +135,20 @@
       "coordinates": {
         "points": [
           [
-            106.00200000000001,
-            263.169
+            470.2006999999995,
+            251.08319999999958
           ],
           [
-            106.00200000000001,
-            273.669
+            470.2006999999995,
+            253.4141999999996
           ],
           [
-            287.6121,
-            273.669
+            479.2006999999995,
+            253.4141999999996
           ],
           [
-            287.6121,
-            263.169
+            479.2006999999995,
+            251.08319999999958
           ]
         ],
         "system": "PixelSpace",
@@ -161,15 +161,15 @@
         "eng"
       ],
       "last_modified": "2025-04-18T12:34:20",
-      "page_number": 4,
+      "page_number": 98,
       "filetype": "application/pdf",
       "category": "Title",
-      "element_id": "c945094fb893bba04661967d88b9f101",
-      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_18",
-      "chunk_index": 18
+      "element_id": "f25389b336a9603474f81ea06db195d1",
+      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_5834",
+      "chunk_index": 5834
     },
-    "content": "1.3 Maternal malnutrition: Consequences",
-    "content_length": 39
+    "content": "I",
+    "content_length": 1
   },
   {
     "rank": 5,
@@ -178,20 +178,20 @@
       "coordinates": {
         "points": [
           [
-            525.4407999999997,
-            698.4291999999999
+            357.3558,
+            733.246807
           ],
           [
-            525.4407999999997,
-            742.8901
+            357.3558,
+            735.554497
           ],
           [
-            534.4407999999997,
-            742.8901
+            366.3558,
+            735.554497
           ],
           [
-            534.4407999999997,
-            698.4291999999999
+            366.3558,
+            733.246807
           ]
         ],
         "system": "PixelSpace",
@@ -204,16 +204,15 @@
         "eng"
       ],
       "last_modified": "2025-04-18T12:34:20",
-      "page_number": 228,
-      "parent_id": "0bd8bcc2c89292479e17525829cc5ca0",
+      "page_number": 211,
       "filetype": "application/pdf",
-      "category": "NarrativeText",
-      "element_id": "41cd39d0a92fbb8b6e55609fbfa30f30",
-      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_33135",
-      "chunk_index": 33135
+      "category": "Title",
+      "element_id": "c166daee0b00189208b47870c61d2063",
+      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_29073",
+      "chunk_index": 29073
     },
-    "content": "s m s i n a h c e m",
-    "content_length": 19
+    "content": "I",
+    "content_length": 1
   },
   {
     "rank": 6,
@@ -222,150 +221,20 @@
       "coordinates": {
         "points": [
           [
-            90.0,
-            462.78819999999996
+            191.62799999999996,
+            169.75969999999984
           ],
           [
-            90.0,
-            474.78819999999996
+            191.62799999999996,
+            191.76469999999983
           ],
           [
-            297.63120000000004,
-            474.78819999999996
+            271.0026,
+            191.76469999999983
           ],
           [
-            297.63120000000004,
-            462.78819999999996
-          ]
-        ],
-        "system": "PixelSpace",
-        "layout_width": 595.276,
-        "layout_height": 841.89
-      },
-      "file_directory": "data",
-      "filename": "nutritional[1] Copy.pdf",
-      "languages": [
-        "eng"
-      ],
-      "last_modified": "2025-04-18T12:34:20",
-      "page_number": 10,
-      "filetype": "application/pdf",
-      "category": "Title",
-      "element_id": "6704fc04e996221da130680a2ad58a56",
-      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_219",
-      "chunk_index": 219
-    },
-    "content": "1.3 Maternal malnutrition: Consequences",
-    "content_length": 39
-  },
-  {
-    "rank": 7,
-    "metadata": {
-      "source": "data\\nutritional[1] Copy.pdf",
-      "coordinates": {
-        "points": [
-          [
-            514.4427999999997,
-            722.6437
-          ],
-          [
-            514.4427999999997,
-            742.8901
-          ],
-          [
-            523.4427999999997,
-            742.8901
-          ],
-          [
-            523.4427999999997,
-            722.6437
-          ]
-        ],
-        "system": "PixelSpace",
-        "layout_width": 595.276,
-        "layout_height": 841.89
-      },
-      "file_directory": "data",
-      "filename": "nutritional[1] Copy.pdf",
-      "languages": [
-        "eng"
-      ],
-      "last_modified": "2025-04-18T12:34:20",
-      "page_number": 228,
-      "parent_id": "0bd8bcc2c89292479e17525829cc5ca0",
-      "filetype": "application/pdf",
-      "category": "NarrativeText",
-      "element_id": "abbec8f6138b276c0cc44fcfe4e470c8",
-      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_33134",
-      "chunk_index": 33134
-    },
-    "content": "b a t s e",
-    "content_length": 9
-  },
-  {
-    "rank": 8,
-    "metadata": {
-      "source": "data\\nutritional[1] Copy.pdf",
-      "coordinates": {
-        "points": [
-          [
-            90.0,
-            415.13339999999994
-          ],
-          [
-            90.0,
-            425.63339999999994
-          ],
-          [
-            405.55964999999964,
-            425.63339999999994
-          ],
-          [
-            405.55964999999964,
-            415.13339999999994
-          ]
-        ],
-        "system": "PixelSpace",
-        "layout_width": 595.276,
-        "layout_height": 841.89
-      },
-      "file_directory": "data",
-      "filename": "nutritional[1] Copy.pdf",
-      "languages": [
-        "eng"
-      ],
-      "last_modified": "2025-04-18T12:34:20",
-      "page_number": 5,
-      "filetype": "application/pdf",
-      "category": "Title",
-      "element_id": "2003e594561a6aac3837331df6562943",
-      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_89",
-      "chunk_index": 89
-    },
-    "content": "Table 1. Consequences of maternal malnutrition for mothers and infants",
-    "content_length": 70
-  },
-  {
-    "rank": 9,
-    "metadata": {
-      "source": "data\\nutritional[1] Copy.pdf",
-      "coordinates": {
-        "points": [
-          [
-            90.0,
-            108.7772
-          ],
-          [
-            90.0,
-            119.2772
-          ],
-          [
-            399.9421499999998,
-            119.2772
-          ],
-          [
-            399.9421499999998,
-            108.7772
+            271.0026,
+            169.75969999999984
           ]
         ],
         "system": "PixelSpace",
@@ -381,34 +250,34 @@
       "page_number": 12,
       "filetype": "application/pdf",
       "category": "Title",
-      "element_id": "a7fb7554a182fba98babe994ca62e256",
-      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_247",
-      "chunk_index": 247
+      "element_id": "a462d6febb8da6027c5725a7105acefd",
+      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_252",
+      "chunk_index": 252
     },
-    "content": "Table 1. Consequences of maternal malnutrition for mothers and infants",
-    "content_length": 70
+    "content": "\u0083 Maternal mortality \u0083 Maternal morbidity",
+    "content_length": 41
   },
   {
-    "rank": 10,
+    "rank": 7,
     "metadata": {
       "source": "data\\nutritional[1] Copy.pdf",
       "coordinates": {
         "points": [
           [
-            514.4427999999997,
-            690.0142
+            470.2006999999995,
+            271.52579999999966
           ],
           [
-            514.4427999999997,
-            691.9671999999999
+            470.2006999999995,
+            273.8567999999997
           ],
           [
-            523.4427999999997,
-            691.9671999999999
+            479.2006999999995,
+            273.8567999999997
           ],
           [
-            523.4427999999997,
-            690.0142
+            479.2006999999995,
+            271.52579999999966
           ]
         ],
         "system": "PixelSpace",
@@ -421,14 +290,144 @@
         "eng"
       ],
       "last_modified": "2025-04-18T12:34:20",
-      "page_number": 228,
+      "page_number": 98,
       "filetype": "application/pdf",
       "category": "Title",
-      "element_id": "0bd8bcc2c89292479e17525829cc5ca0",
-      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_33133",
-      "chunk_index": 33133
+      "element_id": "120a6763eb266a512351e37cce5da545",
+      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_5836",
+      "chunk_index": 5836
     },
-    "content": "i",
+    "content": "I",
     "content_length": 1
+  },
+  {
+    "rank": 8,
+    "metadata": {
+      "source": "data\\nutritional[1] Copy.pdf",
+      "coordinates": {
+        "points": [
+          [
+            98.98200000000006,
+            274.5451999999992
+          ],
+          [
+            98.98200000000006,
+            305.14519999999914
+          ],
+          [
+            147.71070000000006,
+            305.14519999999914
+          ],
+          [
+            147.71070000000006,
+            274.5451999999992
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 595.276,
+        "layout_height": 841.89
+      },
+      "file_directory": "data",
+      "filename": "nutritional[1] Copy.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-18T12:34:20",
+      "page_number": 43,
+      "filetype": "application/pdf",
+      "category": "Title",
+      "element_id": "bd9477e68fd74e11cd4b287a8205a33b",
+      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_1048",
+      "chunk_index": 1048
+    },
+    "content": "Postpartum, beyond 6 weeks",
+    "content_length": 26
+  },
+  {
+    "rank": 9,
+    "metadata": {
+      "source": "data\\nutritional[1] Copy.pdf",
+      "coordinates": {
+        "points": [
+          [
+            460.5119999999996,
+            263.54110000000003
+          ],
+          [
+            460.5119999999996,
+            265.87210000000005
+          ],
+          [
+            469.5119999999996,
+            265.87210000000005
+          ],
+          [
+            469.5119999999996,
+            263.54110000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 595.276,
+        "layout_height": 841.89
+      },
+      "file_directory": "data",
+      "filename": "nutritional[1] Copy.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-18T12:34:20",
+      "page_number": 151,
+      "filetype": "application/pdf",
+      "category": "Title",
+      "element_id": "d1b56aa81fc9e4e133662e9c72355ede",
+      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_16281",
+      "chunk_index": 16281
+    },
+    "content": "I",
+    "content_length": 1
+  },
+  {
+    "rank": 10,
+    "metadata": {
+      "source": "data\\nutritional[1] Copy.pdf",
+      "coordinates": {
+        "points": [
+          [
+            191.6280000000001,
+            321.04970000000003
+          ],
+          [
+            191.6280000000001,
+            343.0547
+          ],
+          [
+            268.81920000000014,
+            343.0547
+          ],
+          [
+            268.81920000000014,
+            321.04970000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 595.276,
+        "layout_height": 841.89
+      },
+      "file_directory": "data",
+      "filename": "nutritional[1] Copy.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-04-18T12:34:20",
+      "page_number": 12,
+      "parent_id": "8996c21825bb6a1d3d4614f02fd34812",
+      "filetype": "application/pdf",
+      "category": "NarrativeText",
+      "element_id": "f464179ebd1fd308ce8aef866fc9888d",
+      "persistent_chunk_id": "nutritional[1] Copy.pdf_chunk_260",
+      "chunk_index": 260
+    },
+    "content": "\u0083 Obstructed labour \u0083 Maternal mortality",
+    "content_length": 40
   }
 ]
